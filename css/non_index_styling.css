@@ -1,0 +1,262 @@
+#body_racing{
+	background-image: url(../img/background/backg_racing2.png);
+	background-position: center;
+	background-attachment: fixed;
+}
+#body_others{
+	background-image: url(../img/background/backg_others0.png);
+	background-position: center;
+	background-attachment: fixed;
+}
+#body_feat_games{
+	background-image: url(../img/background/backg_feat_games.png);
+	background-position: center;
+	background-attachment: fixed;
+}
+#body_on_sale{
+	background-image: url(../img/background/backg_on_sale.png);
+	background-position: center;
+	background-attachment: fixed;
+}	
+#body_adventure{	
+	background-image: url(../img/background/backg_adventure.jpg);
+	background-position: center;
+	background-attachment: fixed;
+}
+#body_shooter{
+	background-image: url(../img/background/backg_shooter.jpg);
+	background-position: center;
+	background-attachment: fixed;
+}
+#body_rpg{
+	background-image: url(../img/background/backg_rpg.png);
+	background-position: center;
+	background-attachment: fixed;
+}
+#body_sports{
+	background-image: url(../img/background/backg_sports.jpg);
+	background-position: center;
+	background-attachment: fixed;
+}	
+#body_news{
+	background-color:#6E6F71;
+}
+#about_us_body{
+	background-image: url(../img/background/backg_us4.png);
+	background-position: center;
+	background-attachment: fixed;
+}	
+.navbar_2{
+	padding: 10px;
+	background: linear-gradient(#0067D8,#033F81); /* Standard syntax */
+	margin-bottom:5%;
+}
+.outer{
+	background-color:#171619;
+	border-style:double;
+	padding:4px;
+	font-size:.9em;
+}
+#video{
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+	margin: 15px;
+}
+#video iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.wrap_left{
+	background-color;
+	width:50%;
+	height:50%;
+	/*border: 2px solid red;*/
+	float:left;	
+}
+.wrap_left img{
+	margin: 10px 10px;
+	width:60%;
+	height:80%;
+	border: 2px solid blue;	
+}
+.wrap_left p{
+	color: #595B60  ;
+	margin:10px;
+}
+.wrap_right{
+	width: 46%;
+	background-color;
+	margin:5px;
+	/*border: 2px solid green;*/
+	float: right;	
+}
+#game_text{
+	float:left;
+	width:50%;
+	/*background-color:white;*/
+}
+#game_text p{
+	color:#E0DBED;  
+	font-size:1.1em;
+	margin:5px;
+	line-height: 200%;	
+}
+#game_img{
+	text-align:center;
+	float:right;
+	/*clear:both;*/
+	width:50%;	
+}
+#game_img img{
+	margin:10px;
+	width:90%;
+}
+#clear{
+	clear:both;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover{
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	background-color: #9C0EB7;
+}
+.button_resume {
+    background-color:#76108A; /* Purple */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button_3 {
+    background-color:#76108A; /* Purple */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .9em;
+    margin: 2px 1px;
+    cursor: pointer;
+	border-radius: 5px 5px 5px 5px;
+}
+.button_3 {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button_3:hover {
+    background-color: #16E5F3; /* Green */
+    color: white;
+}
+#title{
+	font-size:1.8em;
+	color:white;
+	padding-left:10px;
+}
+#on_sale_advertise{
+	text-align:center;
+	background-color:rgba(150, 28, 170, 0.7);
+	border-style:double;
+	padding:4px;
+	margin:10px;
+}
+#on_sale_advertise p{
+	font-size:2.0em;
+	color:white;
+}
+.on_sale_non_index{
+	padding:5px;
+	margin: 10px;
+	border: 1.5px double black;
+	background-color:#171619;
+	clear: both;
+}
+.on_sale_non_index img{
+	margin:10px;
+	heigh: 80%;
+	width: 80%;/*it's working somewhat good, I have to fix the rest of the games and the page above*/
+	max-width: 250px; 
+    max-height: 400px;
+	border: 2px solid purple;
+}
+.on_sale_non_index img:hover{
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	-webkit-filter: brightness(140%);
+	border: 2px solid #14EAE1;
+}
+#discount{
+	background-color:green;
+	font-size:1.2em;
+	padding:2px;
+}
+#text_area{
+	padding:2px;
+	margin:3px;
+	background-color;	
+}
+#fieldset{
+	color:purple;
+	padding:2px;
+	margin:4px;
+	display:inline;
+	width:80%;
+}
+#platform_choice{
+	background-color:#171619;
+	color:#FFFFFF;
+	padding:7px;
+	border: 1.1px solid #ccc;
+	font-size: 10px;
+	width: 80%;
+	cursor: pointer;
+}
+.platform_wrap{
+	border-style:double;
+	border-color:#323438;
+	margin:auto;
+	width:90%;
+	padding:3px;
+	background-color:#414244;
+}
+#button_left{
+	float:left;
+	width:50%;
+	padding:2px;
+}
+#button_right{
+	float:right;
+	width:50%;
+	padding:2px;
+}
+#map_header{
+	text-align:center;
+}
+
+
+
+
+
+

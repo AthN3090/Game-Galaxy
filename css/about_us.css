@@ -1,0 +1,151 @@
+.about_us{
+	padding:15px;
+	border: 2px gray solid;
+	margin: 5px;
+	background-color:white;	
+}
+.about_us h2{
+	text-align:center;
+	font-style;
+	color:purple;
+	margin-bottom:2%;
+	margin-top:1%;
+}
+.about_us p{
+	padding:3px;
+	margin:5px;
+	font-size: 130%;
+	line-height:140%;
+}
+.about_us p::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+}
+.about_us_frame{
+	border-style:double;
+	background-color:white;
+	/*background: linear-gradient(#590967,#590967);*/
+	padding:8px;
+	border-radius: 0px 0px 13px 13px;
+	border-color:#0067D8;
+	margin-bottom:50px;
+}
+.about_us_logo{	
+text-align:center;
+}
+.about_us_logo img{
+	width:20%;
+	height:20%;	
+	clear:both;
+}
+.about_us_dev{
+	padding:20px;
+	margin: 5px;
+	text-align:center;
+	width:100%;
+	height:100%;
+}
+.about_us_dev h3{
+	padding:15px;
+	background-color:rgba(102,0,204,0.5);
+	font-style;
+	color:white;
+	width:100%;
+}
+.dev{
+	padding:10px;
+	margin: 0px;
+	display: inline-block;
+	width:30%;
+}
+.dev img{
+	margin:0px;
+	width:150px;
+	height:150px;	
+}
+.dev:hover{
+	background-color:rgba(102,0,204,0.5);
+}
+.dev1{
+	padding:10px;
+	margin: 0px;
+	display: inline-block;
+	width:30%;
+}
+.dev1 img{
+	margin:0px;
+	width:150px;
+	height:150px;	
+}
+.dev1:hover{
+	background-color:rgba(102,0,204,0.5);
+}
+.dev2{
+	padding:10px;
+	margin: 0px;
+	display: inline-block;
+	width:30%;	
+}
+.dev2 img{
+	margin:0px;
+	width:150px;
+	height:150px;
+}
+.dev2:hover{
+	background-color:rgba(102,0,204,0.5);
+}
+.navbar_3{
+	padding: 10px;
+	/*background: #1486D0; /* For browsers that do not support gradients */
+	/*background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+	/*background: -o-linear-gradient(bottom right, red, yellow); /* For Opera 11.1 to 12.0 */
+	/*background: -moz-linear-gradient(bottom right, red, yellow); /* For Firefox 3.6 to 15 */
+	/*background: linear-gradient(to bottom right, blue , purple); /* Standard syntax */
+	background: linear-gradient(#0067D8,#033F81); /* Standard syntax */
+	margin-bottom:0%;
+}
+contact_us_wrap{
+	border:1px solid black;
+	background-color:black;
+}
+.contact_us_block0{
+	margin: 5px;
+	width:67%;
+	background-color;
+	float:left;
+	padding:5px;
+}
+.contact_us_block0 p{
+	font-size:.8em;
+	padding:2px;
+	margin-bottom:20px;
+}
+.contact_us_block0 h2{
+	color:white;
+	background-color:purple;
+	margin-bottom:20px;
+}
+.contact_us_block1{
+	padding:5px;
+	margin:3px;
+	width:30%;
+	background-color;
+	float:right;
+}
+.contact_us_block1 p{
+	font-size:.8em;
+	padding:2px;
+	margin-bottom:20px;
+}
+.contact_us_block1 h3{
+	padding:5px;
+	color:white;
+	background-color:purple;
+}
+
+
+
+
+
+
+	

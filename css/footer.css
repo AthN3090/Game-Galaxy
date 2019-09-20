@@ -1,0 +1,48 @@
+.social{
+	text-align:center;
+	
+	padding:5px;
+	font-size;
+	color:purple;
+	margin-top:10px;
+	background: linear-gradient(#B5A6B8, #FFFFFF); /* Standard syntax */
+	clear:both;
+}
+.social img{
+	width:35px;
+	height:40px;
+	padding-top:10px;
+	cursor: pointer;
+}
+.social img:hover{
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+   
+   -webkit-filter: brightness(170%);
+}
+.social h4{
+	color:#76108A;	
+}
+.footer{
+	padding: 6px 10px 3px 10px;
+	background-color:#76108A;
+	text-align:center;
+}
+.footer a{
+	padding: 6px 10px 3px 10px;
+	color: white;
+	underline:none;
+}
+
+
+#rights{
+	
+	background-color:#76108A;
+	border-radius: 0px 0px 13px 13px;
+	text-align:center;
+	font-style;
+	padding-bottom:10px;
+	margin-bottom:0px;
+	font-size:0.8em;
+}
+	
