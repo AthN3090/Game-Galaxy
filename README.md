@@ -1,2 +1,2 @@
-# SE_PROJECT
+# SOFTWARE ENGINEERING PROJECT 
 A game retail website 
