@@ -27,13 +27,13 @@
 	width: 100%;
 	float: left;
 }
-
+ 
 .slider figure{
 	position: relative;
 	width: 500%;
 	margin: 0;
 	left: 0;
-	animation: 60s slidy infinite;
+	animation: 30s slidy infinite;
 }
 
 @keyframes slidy{
@@ -44,39 +44,34 @@
 	10%{
 		left: 0%;
 	}
-	15%{+5
-		left: -100%;
+	20%{
+		left:-100%;
 	}
-	25%{
-		left: -100%;
+	30%{
+		left:-100%;
 	}
-	35%{
-		left: -100%;
-	}
-	40%{+5
+	40%{
 		left: -200%;
 	}
 	50%{
-		left: -200%;
+		left:-200%;
 	}
 	60%{
-		left: -200%;
-	}
-	65%{+5
 		left: -300%;
 	}
-	75%{
-		left: -300%;
+	70%{
+		left:-300%;
 	}
-	80%{+5
+	80%{
 		left: -400%;
-	}
-	90%{
-		left: -400%;
+		}
+    90%{
+		left:-400%;
 	}
 	100%{
-		left: -400%;
-	}
+		left:0%;
+	}	
+	
 	
 	
 }
