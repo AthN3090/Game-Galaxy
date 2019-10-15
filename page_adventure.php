@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en-us">
+
+	<!-- Header of the page-->
+	<head>
+		<meta charset="utf-8">
+		<meta author = "author" content = "Jesus,Ibrahima,Leland">
+		<title>Game Galaxy</title>
+		
+		<link rel="stylesheet" href="css/site.css"> 				<!-- Needed for general page styling-->
+		<link rel="stylesheet" href="css/bump.css"> 				<!-- Needed for general every single page that uses a bump picture-->
+		<link rel="stylesheet" href="css/footer.css"> 				<!-- Needed for everypage that uses footer-->
+		<link rel="stylesheet" href="css/non_index_styling.css"> 	<!-- Needed for navbar margin and color in genre pages, and genre block styling-->
+		<script type="text/javascript" src="js/scripts.js"></script>
+	</head>
+
+	
+	<!-- Body of the page starts here-->
+	<body id="body_adventure">
+	
+	<div class = "container">
+	<!-- Top of the page that use the logo-->
+		<div class = "top">
+			
+			<img src="img/logo/logo2.png">
+			
+		</div>
+		<!-- Navigation bar block-->
+		<div class = "navbar_2">
+			<nav>
+				<ul class="cf">
+					<li><a class="dropdown" href="index.html">Home</a>
+						
+					</li>
+					
+					<li><a class="dropdown" href="#">Genre</a>
+						<ul>
+							<li><a href="page_racing.html">Racing</a></li>
+							<li><a href="page_shooter.html">Shooter</a></li>
+							<li><a href="page_sports.html">Sports</a></li>
+							<li><a href="page_rpg.html">RPG</a></li>
+							<li><a href="page_others.html">Other</a></li>
+							
+						</ul>
+					</li>
+					
+					<li><a class="dropdown" href="#">Games</a>
+						<ul>
+							<li><a href="page_featured_games.html">Featured Games</a></li>
+							<li><a href="page_best_sellers.html">Best Bellers</a></li>
+							<li><a href="page_on_sale.html">On Sale</a></li>
+						</ul>
+					</li>
+					
+						<li><a class="dropdown" href="#">News</a>
+							<ul>
+								<li><a href="news.html#nintendo1">Nintendo Switch</a></li>
+								<li><a href="news.html#xboxone1">Xbox One</a></li>
+								<li><a href="news.html#sony1">PlayStation</a></li>
+								<li><a href="news.html#pc_gamer1">PC</a></li>
+							</ul>
+						</li>
+					
+						<li><a class="dropdown" href="#">About Us</a>
+							<ul>
+								<li><a href="page_aboutus.html#developers">Get to know us</a></li>
+								<li><a href="page_aboutus.html">Game Galaxy Project</a></li>
+							</ul>
+						</li>
+						
+						<li><a class="dropdown" href="#">Contact us</a>
+							<ul>
+								<li><a href="page_contactus.html">Support</a></li>
+								
+							</ul>
+						</li>
+				
+			</ul>
+        </nav>
+    </div>
+		
+		
+	<!-- Frame of the main body starts here. -->	
+	<div class = "frame">
+		<!-- Partition of news-->
+
+					
+			
+		
+		
+	
+
+		
+		<!-- First banner that divides blocks. -->
+		<div class = "bump_adventure">
+			
+			<img src="img/bump/img0003.png">
+			
+		</div>
+	
+		
+		<!-- Feature games block-->
+		
+		<!-- Adventure Game 1-->	
+			<div class = "outer">
+				<p id="title">Middle Earth : Shadow of War</p>
+					<div class = "wrap_left">
+					
+						<div id = "video">
+							<iframe  src="https://www.youtube.com/embed/bhSfjt8jQyk?rel=0&amp" frameborder="0" gesture="media" allowfullscreen></iframe>
+						</div>
+							<p>The sequel to the critically-acclaimed Middle-Earth: Shadow of Mordor-winner of over 50 industry awards-arrives this August.&nbsp; 
+							   Continuing the original story of Talion and Celebrimbor, who must now go behind enemy lines to forge an army 
+							   in order to turn all of Mordor against the Dark Lord, Sauron.</p>			
+					</div>
+				
+				<div class = "wrap_right"> <!-- Right block-->
+					
+					<div id = "game_text">
+						 <p>Price: 
+						
+						<span style="font-size:1.6em;"> $59.99</span>
+						<br/>Category: Adventure<br/>Developer: Monolith Studios<br/>
+						Publisher: Warner Bothers Interactive<br/>
+						Release Date: Oct 10, 2017<br/>
+						Platform: PC, Xbox One, PS4
+						</p>
+					</div>
+					
+					
+					
+					<div id = "game_img">
+							<img src="img/games/game_adventure04.png">
+							<div id = "clear"></div>
+						
+						
+						<form target="PayPal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin:0;padding:0;">
+							<input type="hidden" name="business" value="ljb2k5@gmail.com">
+							<input type="hidden" name="cmd" value="_cart">
+							<input type="hidden" name="add" value="1">
+							<input type="hidden" name="item_name" value="Middle Earth: Shadow of War">
+							<input type="hidden" name="item_number" value="MESW">
+							<input type="hidden" name="amount" value="59.99">
+							<input type="hidden" name="tax" value="3.96">
+							<input type="hidden" name="currency_code" value="USD">
+							<input type="hidden" name="return" value="">
+							<input type="hidden" name="cancel_return" value="">
+							<input type="hidden" name="receiver_email" value="ljb2k5@gmail.com">
+							<input type="hidden" name="no_shipping" value="0">
+							<input type="hidden" name="no_note" value="1">
+							<input type="hidden" name="shipping" value="3.00">
+							<input type="hidden" name="shipping2" value="0.00">
+							<input type="hidden" name="handling" value="0.00">
+							<input type="hidden" name="on0" value="Platform">
+							
+						<div class ="platform_wrap">
+							
+							<p style="color:white;" >Select Platform</p><select name="os0" id="platform_choice">
+							
+							<option value="PC">Microsoft Windows</option>
+							<option value="XBOX ONE">XBOX ONE</option>
+							<option value="PS4">PS4</option>
+							
+							</select>
+							
+							
+							<div id = "clear"></div>
+							
+							<div id="button_left">
+							<input id="PayPal5" type="image" style="font-size: 0.7em;" value="Add to cart" <button class="button"></button> 
+							</div>	
+							</form>
+							
+							<div id="button_right">
+							<form target="PayPal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin:0;padding:0;">
+								<input type="hidden" name="business" value="ljb2k5@gmail.com">
+								<input type="hidden" name="cmd" value="_cart">
+								<input type="hidden" name="display" value="1">
+								<input id="PayPal6" type="image" style="font-size: 0.7em;" value="View Cart" <button class="button"></button> 
+							</form>
+							</div>
+							<div id = "clear"></div>							
+						
+						</div>
+					</div>
+				</div>
+				
+				<div id = "clear"></div>
+				
+				
+			</div>
+			
+			
+			<!-- Adventure Game 2-->
+			<div class = "outer">
+			
+			<p id="title">Super Mario Odyssey</p>
+				<div class = "wrap_left">
+				
+					<div id = "video">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/wGQHQc_3ycE" frameborder="0" gesture="media" allowfullscreen></iframe>
+					</div>
+					<p>Embark on a cap-tivating, globe-trotting adventure!<br><br>Join Mario on a massive, globe-trotting 3D adventure and use his incredible new abilities
+					   to collect Moons so you can power up your airship, the Odyssey, and rescue Princess Peach from Bowser's wedding plans!</p>
+				</div>
+				
+				<div class = "wrap_right"> <!-- Right block-->
+					<div id = "game_text">
+						<p>Price: <span style="background-color:green;font-size:1.1em;">
+						20%off </span>
+						<span style="text-decoration: line-through;font-size:1.6em;color:grey"> $59.00</span>
+						<span style="font-size:1.6em;"> $48.00</span>
+						<br/>Category: Adventure<br/>Developer: Nintendo Entertainment<br/>
+						Publisher: Nintendo Co., Ltd.<br/>
+						Release Date: Oct 27, 2017<br/>
+						Platform: Nintendo Switch
+						</p>
+					</div>
+					
+					
+					
+							<div id = "game_img">
+							<img src="img/games/game_adventure0.png">
+							<div id = "clear"></div>
+						
+						
+						<form target="PayPal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin:0;padding:0;">
+							<input type="hidden" name="business" value="ljb2k5@gmail.com">
+							<input type="hidden" name="cmd" value="_cart">
+							<input type="hidden" name="add" value="1">
+							<input type="hidden" name="item_name" value="Super Mario Odyssey">
+							<input type="hidden" name="item_number" value="SMO">
+							<input type="hidden" name="amount" value="48.00">
+							<input type="hidden" name="tax" value="3.96">
+							<input type="hidden" name="currency_code" value="USD">
+							<input type="hidden" name="return" value="">
+							<input type="hidden" name="cancel_return" value="">
+							<input type="hidden" name="receiver_email" value="ljb2k5@gmail.com">
+							<input type="hidden" name="no_shipping" value="0">
+							<input type="hidden" name="no_note" value="1">
+							<input type="hidden" name="shipping" value="3.00">
+							<input type="hidden" name="shipping2" value="0.00">
+							<input type="hidden" name="handling" value="0.00">
+							<input type="hidden" name="on0" value="Platform">
+							
+						<div class ="platform_wrap">
+							
+							<p style="color:white;" >Select Platform</p><select name="os0" id="platform_choice">
+							
+							<option value="Nintendo Switch">Nintendo Switch</option>
+														
+							</select>
+							
+							
+							<div id = "clear"></div>
+							
+							<div id="button_left">
+							<input id="PayPal5" type="image" style="font-size: 0.7em;" value="Add to cart" <button class="button"></button> 
+							</div>	
+							</form>
+							
+							<div id="button_right">
+							<form target="PayPal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin:0;padding:0;">
+								<input type="hidden" name="business" value="ljb2k5@gmail.com">
+								<input type="hidden" name="cmd" value="_cart">
+								<input type="hidden" name="display" value="1">
+								<input id="PayPal6" type="image" style="font-size: 0.7em;" value="View Cart" <button class="button"></button> 
+							</form>
+							</div>
+							<div id = "clear"></div>							
+						
+						</div>
+					</div>
+				</div>
+				<div id = "clear">
+				</div>
+				
+			</div>
+			
+			
+			<!-- Adventure Game 3-->
+			<div class = "outer">
+			
+			<p id="title">Assassin's Creed Origins: Gold Edition</p>
+				
+				<div class = "wrap_left">
+				
+					<div id = "video">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/cUuKIpCM2o0" frameborder="0" gesture="media" allowfullscreen></iframe>
+					</div>
+						<p>Assassin's Creed Origins is a new beginning. Take on epic enemies with a whole new combat system. Explore the Great Pyramids and hidden tombs across the country of Ancient Egypt.
+						   Experience visceral quests and discover the origin story of the Assassin's Brotherhood!</p>
+				</div>
+				
+				<div class = "wrap_right"> <!-- Right block-->
+					<div id = "game_text">
+						<p>Price:
+						<span style="font-size:1.6em;"> $99.00</span>
+						<br/>Category: Adventure<br/>Developer: Ubisoft Montreal<br/>
+						Publisher: Ubisoft/Square Enix<br/>
+						Release Date: Oct 27, 2017<br/>
+						Platform: PC, Xbox One, PS4
+						</p>
+					</div>
+					
+					
+					
+							<div id = "game_img">
+							<img src="img/games/game_adventure01.jpg">
+							<div id = "clear"></div>
+						
+						
+						<form target="PayPal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin:0;padding:0;">
+							<input type="hidden" name="business" value="ljb2k5@gmail.com">
+							<input type="hidden" name="cmd" value="_cart">
+							<input type="hidden" name="add" value="1">
+							<input type="hidden" name="item_name" value="Assassin's Creed Origins: Gold Edition">
+							<input type="hidden" name="item_number" value="ACOG">
+							<input type="hidden" name="amount" value="99.00">
+							<input type="hidden" name="tax" value="3.96">
+							<input type="hidden" name="currency_code" value="USD">
+							<input type="hidden" name="return" value="">
+							<input type="hidden" name="cancel_return" value="">
+							<input type="hidden" name="receiver_email" value="ljb2k5@gmail.com">
+							<input type="hidden" name="no_shipping" value="0">
+							<input type="hidden" name="no_note" value="1">
+							<input type="hidden" name="shipping" value="3.00">
+							<input type="hidden" name="shipping2" value="0.00">
+							<input type="hidden" name="handling" value="0.00">
+							<input type="hidden" name="on0" value="Platform">
+							
+						<div class ="platform_wrap">
+							
+							<p style="color:white;" >Select Platform</p><select name="os0" id="platform_choice">
+							
+							<option value="PC">Microsoft Windows</option>
+							<option value="XBOX ONE">XBOX ONE</option>
+							<option value="PS4">PS4</option>
+							
+							</select>
+							
+							
+							<div id = "clear"></div>
+							
+							<div id="button_left">
+							<input id="PayPal5" type="image" style="font-size: 0.7em;" value="Add to cart" <button class="button"></button> 
+							</div>	
+							</form>
+							
+							<div id="button_right">
+							<form target="PayPal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin:0;padding:0;">
+								<input type="hidden" name="business" value="ljb2k5@gmail.com">
+								<input type="hidden" name="cmd" value="_cart">
+								<input type="hidden" name="display" value="1">
+								<input id="PayPal6" type="image" style="font-size: 0.7em;" value="View Cart" <button class="button"></button> 
+							</form>
+							</div>
+							<div id = "clear"></div>							
+						
+						</div>
+					</div>
+				</div>
+				<div id = "clear">
+				</div>
+				
+			<!-- Adventure Game 4-->	
+			</div>
+			
+			
+			
+			<div class = "outer">
+			
+			<p id="title">Nier Automata</p>
+			
+				<div class = "wrap_left">
+				
+					<div id = "video">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/wJxNhJ8fjFk" frameborder="0" gesture="media" allowfullscreen></iframe>
+					</div>
+					<p>Humanity has been driven from the Earth by mechanical alien beings. In a final effort to take back the planet, the human resistance sends a force of android soldiers to destroy the invaders.
+					   Now, a war between machines and androids rages on... A war that could soon unveil a long-forgotten truth of the world.</p>		
+				</div>
+				
+				<div class = "wrap_right"> <!-- Right block-->
+					<div id = "game_text">
+						<p>Price:
+						<span style="font-size:1.6em;"> $59.00</span>
+						<br/>Category: Adventure<br/>Developer: Platinum Games<br/>
+						Publisher: Square Enix<br/>
+						Release Date: Feb 23, 2017<br/>
+						Platform: PC, PS4
+						</p>
+					</div>
+					
+					
+					
+							<div id = "game_img">
+							<img src="img/games/game_adventure02.png">
+							<div id = "clear"></div>
+						
+						
+						<form target="PayPal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin:0;padding:0;">
+							<input type="hidden" name="business" value="ljb2k5@gmail.com">
+							<input type="hidden" name="cmd" value="_cart">
+							<input type="hidden" name="add" value="1">
+							<input type="hidden" name="item_name" value="Nier Automata">
+							<input type="hidden" name="item_number" value="NAUTO">
+							<input type="hidden" name="amount" value="59.00">
+							<input type="hidden" name="tax" value="3.96">
+							<input type="hidden" name="currency_code" value="USD">
+							<input type="hidden" name="return" value="">
+							<input type="hidden" name="cancel_return" value="">
+							<input type="hidden" name="receiver_email" value="ljb2k5@gmail.com">
+							<input type="hidden" name="no_shipping" value="0">
+							<input type="hidden" name="no_note" value="1">
+							<input type="hidden" name="shipping" value="3.00">
+							<input type="hidden" name="shipping2" value="0.00">
+							<input type="hidden" name="handling" value="0.00">
+							<input type="hidden" name="on0" value="Platform">
+							
+						<div class ="platform_wrap">
+							
+							<p style="color:white;" >Select Platform</p><select name="os0" id="platform_choice">
+							
+							<option value="PC">Microsoft Windows</option>
+							<option value="PS4">PS4</option>
+							
+							</select>
+							
+							
+							<div id = "clear"></div>
+							
+							<div id="button_left">
+							<input id="PayPal5" type="image" style="font-size: 0.7em;" value="Add to cart" <button class="button"></button> 
+							</div>	
+							</form>
+							
+							<div id="button_right">
+							<form target="PayPal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin:0;padding:0;">
+								<input type="hidden" name="business" value="ljb2k5@gmail.com">
+								<input type="hidden" name="cmd" value="_cart">
+								<input type="hidden" name="display" value="1">
+								<input id="PayPal6" type="image" style="font-size: 0.7em;" value="View Cart" <button class="button"></button> 
+							</form>
+							</div>
+							<div id = "clear"></div>							
+						
+						</div>
+					</div>
+				</div>
+				<div id = "clear"></div>
+				
+				
+			</div>
+			
+			
+
+			
+		</body>
+		
+			<div id = "on_sale_advertise">
+			
+				<p>Check out our games on sale!</p>
+				
+			</div>
+		
+		<div class = "on_sale_non_index">
+		<table>
+			<tr>
+				<th><a href="page_on_sale.html#NOA"><img src = "img/games/game_other01.png" alt = "ON_SALE"</a></th>
+				<th><a href="page_on_sale.html#blue_reflection"><img src = "img/games/game_rpg01.png" alt = "ON_SALE"</a></th>
+				<th><a href="page_on_sale.html#fatal_frame_v"><img src = "img/games/game_other0.png" alt = "ON_SALE"</a></th>
+				<th><a href="page_on_sale.html#nfl17"><img src = "img/games/game_sports01.jpg" alt = "ON_SALE"</a></th>
+				<th><a href="page_on_sale.html#pdx"><img src = "img/games/game_other02.jpg" alt = "ON_SALE"</a></th>
+				<th><a href="page_on_sale.html#ffxv"><img src = "img/games/game_rpg0.png" alt = "ON_SALE"</a></th>
+				<th><a href="page_on_sale.html#rbi2017"><img src = "img/games/game_sports03.png" alt = "ON_SALE"</a></th>
+			</tr>
+		</table>
+		</div>
+		
+		<div id = "clear">
+		
+		<!-- Footer block starts here-->
+		<footer>
+		
+				<div class = "social">
+			
+					<h4>Follow us!</h4>
+					<a href="https://www.facebook.com/Games-Galaxy-1805648999468804/"><image src = "img/social/ico00.png" alt = "social0"></a>
+					<a href="https://www.instagram.com/northamericanu/"><image src = "img/social/ico01.png" alt = "social0"></a>
+					<a href="https://www.youtube.com/watch?v=_yF08r-49m0&feature=youtu.be"><image src = "img/social/ico02.png" alt = "social0"></a>
+					<a href="https://twitter.com/NorthAmericanU"><image src = "img/social/ico03.png" alt = "social0"></a>
+					<a href="https://www.twitch.tv/"><image src = "img/social/ico04.png" alt = "social0"></a>
+					<a href="https://www.linkedin.com/"><image src = "img/social/ico05.png" alt = "social0"></a>
+					
+				</div>
+				<div class="footer">
+					<a href="index.html">Home</a>
+					<a href="privacy.html">Privacy</a>
+					<a href="page_aboutus.html">About us</a>
+					<a href="page_contactus.html">Contact us</a>
+				</div>
+				<div id = "rights">
+					<a>&copy; 2017 Games Galaxy Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.</a>
+				</div>
+
+		</div>
+		
+		</footer>
+	</div>
+</html>
