@@ -6,7 +6,8 @@
 	box-sizing:border-box
 }
 #body{
-	background-image: url(../img/background/main_backg.png);
+	background-image: url(../img/background/main_backg.jpg);
+	background-size: cover;
 	background-attachment: fixed;
 }
 .description{
