@@ -1,4 +1,3 @@
-<<<<<<< HEAD:page_others.php
 <!doctype html>
 <html lang="en-us">
 

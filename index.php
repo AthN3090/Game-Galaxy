@@ -1,4 +1,3 @@
-<<<<<<< HEAD:index.php
 <!doctype html>
 <?php include('./php/server.php'); ?>
 <html lang="en-us">
@@ -507,7 +506,6 @@
 		</div>
 		</footer>
 	</div>
-=======
 <!doctype html>
 <html lang="en-us">
 
@@ -1017,5 +1015,4 @@
 		</div>
 		</footer>
 	</div>
->>>>>>> 50d5de1c0db865ff9112b264f243e05a8e1125d9:index.php
 </html>
