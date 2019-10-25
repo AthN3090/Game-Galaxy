@@ -568,7 +568,7 @@
 				<div class = "wrap_left">
 
 					<div id = "video">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/vD1ccSM9qiA" frameborder="0" gesture="media" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/RqkpT0qag5c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 					<p>Forza Horizon 3 is an open world racing video game developed by Playground Games and published by Microsoft Studios for Xbox One and Microsoft Windows 10. The game features cross-platform play between the two platforms</p>
 				</div>
