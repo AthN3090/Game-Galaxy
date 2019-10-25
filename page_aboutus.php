@@ -35,41 +35,41 @@
 			<div class = "navbar_3">
 					<nav>
 						<ul class="cf">
-							<li><a class="dropdown" href="index.html">Home</a>
+							<li><a class="dropdown" href="index.php">Home</a>
 							</li>
 							
 							<li><a class="dropdown" href="#">Genre</a>
 								<ul>
-									<li><a href="page_adventure.html">Adventure</a></li>
-									<li><a href="page_racing.html">Racing</a></li>
-									<li><a href="page_shooter.html">Shooter</a></li>
-									<li><a href="page_sports.html">Sports</a></li>
-									<li><a href="page_rpg.html">RPG</a></li>
-									<li><a href="page_others.html">Other</a></li>
+									<li><a href="page_adventure.php">Adventure</a></li>
+									<li><a href="page_racing.php">Racing</a></li>
+									<li><a href="page_shooter.php">Shooter</a></li>
+									<li><a href="page_sports.php">Sports</a></li>
+									<li><a href="page_rpg.php">RPG</a></li>
+									<li><a href="page_others.php">Other</a></li>
 								</ul>
 							</li>
 							
 							<li><a class="dropdown" href="#">Games</a>
 								<ul>
-									<li><a href="page_featured_games.html">Featured Games</a></li>
-									<li><a href="page_best_sellers.html">Best Bellers</a></li>
-									<li><a href="page_on_sale.html">On Sale</a></li>
+									<li><a href="page_featured_games.php">Featured Games</a></li>
+									<li><a href="page_best_sellers.php">Best Bellers</a></li>
+									<li><a href="page_on_sale.php">On Sale</a></li>
 								</ul>
 							</li>
 							
 								<li><a class="dropdown" href="#">News</a>
 									<ul>
-										<li><a href="news.html">Nintendo Switch</a></li>
-										<li><a href="news.html">Xbox One</a></li>
-										<li><a href="news.html">PlayStation</a></li>
-										<li><a href="news.html">PC</a></li>
+										<li><a href="news.php">Nintendo Switch</a></li>
+										<li><a href="news.php">Xbox One</a></li>
+										<li><a href="news.php">PlayStation</a></li>
+										<li><a href="news.php">PC</a></li>
 									</ul>
 								</li>
 								</li>
 								
 								<li><a class="dropdown" href="#">Contact us</a>
 									<ul>
-										<li><a href="page_contactus.html">Support</a></li>
+										<li><a href="page_contactus.php">Support</a></li>
 									</ul>
 								</li>
 						
@@ -112,7 +112,7 @@
 			
 				<div class = "dev">
 				
-				<a href="best_sellers.html"><img src="img/social/dev1.png"></a>
+				<a href="best_sellers.php"><img src="img/social/dev1.png"></a>
 				<h4>Marmol, Jesus</h4>
 				<p>Software Engineer</p>
 				<p>Student at North American University</p>
@@ -170,10 +170,10 @@
 					
 				</div>
 				<div class="footer">
-					<a href="index.html">Home</a>
-					<a href="privacy.html">Privacy</a>
-					<a href="page_aboutus.html">About us</a>
-					<a href="page_contactus.html">Contact us</a>
+					<a href="index.php">Home</a>
+					<a href="privacy.php">Privacy</a>
+					<a href="page_aboutus.php">About us</a>
+					<a href="page_contactus.php">Contact us</a>
 				</div>
 				<div id = "rights">
 					<a>&copy; 2017 Games Galaxy Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.</a>

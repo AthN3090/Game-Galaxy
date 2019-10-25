@@ -29,48 +29,48 @@
 		<div class = "navbar_2">
 			<nav>
 				<ul class="cf">
-					<li><a class="dropdown" href="index.html">Home</a>
+					<li><a class="dropdown" href="index.php">Home</a>
 						
 					</li>
 					
 					<li><a class="dropdown" href="#">Genre</a>
 						<ul>
-							<li><a href="page_adventure.html">Adventure</a></li>
-							<li><a href="page_racing.html">Racing</a></li>
-							<li><a href="page_shooter.html">Shooter</a></li>
-							<li><a href="page_sports.html">Sports</a></li>
-							<li><a href="page_rpg.html">RPG</a></li>
-							<li><a href="page_others.html">Other</a></li>
+							<li><a href="page_adventure.php">Adventure</a></li>
+							<li><a href="page_racing.php">Racing</a></li>
+							<li><a href="page_shooter.php">Shooter</a></li>
+							<li><a href="page_sports.php">Sports</a></li>
+							<li><a href="page_rpg.php">RPG</a></li>
+							<li><a href="page_others.php">Other</a></li>
 							
 						</ul>
 					</li>
 					
 					<li><a class="dropdown" href="#">Games</a>
 						<ul>
-							<li><a href="page_featured_games.html">Featured Games</a></li>
-							<li><a href="page_best_sellers.html">Best Bellers</a></li>
+							<li><a href="page_featured_games.php">Featured Games</a></li>
+							<li><a href="page_best_sellers.php">Best Bellers</a></li>
 						</ul>
 					</li>
 					
-						<li><a class="dropdown" href="news.html">News</a>
+						<li><a class="dropdown" href="news.php">News</a>
 							<ul>
-								<li><a href="news.html#nintendo1">Nintendo Switch</a></li>
-								<li><a href="news.html#xboxone1">Xbox One</a></li>
-								<li><a href="news.html#sony1">PlayStation</a></li>
-								<li><a href="news.html#pc_gamer1">PC</a></li>
+								<li><a href="news.php#nintendo1">Nintendo Switch</a></li>
+								<li><a href="news.php#xboxone1">Xbox One</a></li>
+								<li><a href="news.php#sony1">PlayStation</a></li>
+								<li><a href="news.php#pc_gamer1">PC</a></li>
 							</ul>
 						</li>
 					
 						<li><a class="dropdown" href="#">About Us</a>
 							<ul>
-								<li><a href="page_aboutus.html#developers">Get to know us</a></li>
-								<li><a href="page_aboutus.html">Game Galaxy Project</a></li>
+								<li><a href="page_aboutus.php#developers">Get to know us</a></li>
+								<li><a href="page_aboutus.php">Game Galaxy Project</a></li>
 							</ul>
 						</li>
 						
 						<li><a class="dropdown" href="#">Contact us</a>
 							<ul>
-								<li><a href="page_contactus.html">Support</a></li>
+								<li><a href="page_contactus.php">Support</a></li>
 								
 							</ul>
 						</li>
@@ -980,13 +980,13 @@
 		<div class = "on_sale_non_index">
 		<table>
 			<tr>
-				<th><a href="page_featured_games.html#codww2"><img src = "img/games/game_shooter02.jpg" alt = "ON_SALE"</a></th>
-				<th><a href="page_featured_games.html#origins"><img src = "img/games/game_adventure01.jpg" alt = "ON_SALE"</a></th>
-				<th><a href="page_featured_games.html#shadow_of_war"><img src = "img/games/game_adventure04.png" alt = "ON_SALE"</a></th>
-				<th><a href="page_featured_games.html#forza_horizon3"><img src = "img/games/game_racing01.png" alt = "ON_SALE"</a></th>
-				<th><a href="page_featured_games.html#nioh"><img src = "img/games/game_rpg02.jpg" alt = "ON_SALE"</a></th>
-				<th><a href="page_featured_games.html#sm_odyssey"><img src = "img/games/game_adventure0.png" alt = "ON_SALE"</a></th>
-				<th><a href="page_featured_games.html#TEW2"><img src = "img/games/game_other02.png" alt = "ON_SALE"</a></th>
+				<th><a href="page_featured_games.php#codww2"><img src = "img/games/game_shooter02.jpg" alt = "ON_SALE"</a></th>
+				<th><a href="page_featured_games.php#origins"><img src = "img/games/game_adventure01.jpg" alt = "ON_SALE"</a></th>
+				<th><a href="page_featured_games.php#shadow_of_war"><img src = "img/games/game_adventure04.png" alt = "ON_SALE"</a></th>
+				<th><a href="page_featured_games.php#forza_horizon3"><img src = "img/games/game_racing01.png" alt = "ON_SALE"</a></th>
+				<th><a href="page_featured_games.php#nioh"><img src = "img/games/game_rpg02.jpg" alt = "ON_SALE"</a></th>
+				<th><a href="page_featured_games.php#sm_odyssey"><img src = "img/games/game_adventure0.png" alt = "ON_SALE"</a></th>
+				<th><a href="page_featured_games.php#TEW2"><img src = "img/games/game_other02.png" alt = "ON_SALE"</a></th>
 			</tr>
 		</table>
 		</div>
@@ -1008,10 +1008,10 @@
 					
 				</div>
 				<div class="footer">
-					<a href="index.html">Home</a>
-					<a href="privacy.html">Privacy</a>
-					<a href="page_aboutus.html">About us</a>
-					<a href="page_contactus.html">Contact us</a>
+					<a href="index.php">Home</a>
+					<a href="privacy.php">Privacy</a>
+					<a href="page_aboutus.php">About us</a>
+					<a href="page_contactus.php">Contact us</a>
 				</div>
 				<div id = "rights">
 					<a>&copy; 2017 Games Galaxy Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.</a>
