@@ -152,7 +152,13 @@
                     <option >XBOX ONE, PC</option>
 
                 </select>
-                <br><br>
+                <select required style="outline:none;height:25pt;width: 95%;border-radius: 5pt;margin:10px 10px;;padding-left: 10px;" name="tag">
+                    <option selected disabled>Tag</option>
+                    <option>Featured</option>  
+                    <option>Best Sellers</option>
+                    <option>On Sale</option>
+                </select>
+                <br>
                 <input type="submit" value="submit" id="submit" name="newgame">
                 
             </form>

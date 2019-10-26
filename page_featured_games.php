@@ -348,7 +348,7 @@
 							<div id = "clear"></div>
 
 							<div id="button_left">
-							<input id="PayPal5" type="image" style="font-size: 0.7em;" value="Add to cart" <button class="button"></button>
+							<input id="PayPal5" type="image" style="font-size: 0.7em;" value="Add to cart"> <button class="button"></button>
 							</div>
 							</form>
 
@@ -357,7 +357,7 @@
 								<input type="hidden" name="business" value="ljb2k5@gmail.com">
 								<input type="hidden" name="cmd" value="_cart">
 								<input type="hidden" name="display" value="1">
-								<input id="PayPal6" type="image" style="font-size: 0.7em;" value="View Cart" <button class="button"></button>
+								<input id="PayPal6" type="image" style="font-size: 0.7em;" value="View Cart" src="./img/images/sc-but-01.gif"> <button class="button"></button>
 							</form>
 							</div>
 							<div id = "clear"></div>

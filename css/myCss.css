@@ -1,0 +1,220 @@
+/*
+grey-color:##2f3030
+green color:#3bcc72 
+rgb(246, 248, 250);
+#efefef
+#cccccc
+*/
+
+
+form{
+ margin:0px; padding:0px;
+}
+textarea{
+    resize: none;
+}
+body{margin:0;
+    height: 100%;
+    width: 100%;
+    background-size:100% 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   background-color:#e8e8e8 !important;
+}
+.homeBody{
+    margin:0;
+    height: 100%;
+    width: 100%;
+    background-image:url("../img/background/admin_back.jpg");
+    background-size:100% 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+#search{
+    top:10;
+    position: absolute;
+    height:45;
+    width:45;
+    right:10;
+    transition:0.2s; 
+}
+#search:hover{
+    transform: scale(1.09,1.09);
+    
+    cursor: pointer;
+    transition:0.2s; 
+}
+#topbar{
+    height:10%;
+    width: 100%;
+    background-color:black;
+    box-shadow:0px 10px 50px black;
+}
+#headerfont{
+    text-decoration: none;
+    position: relative;
+    font-family: pacifico;
+    color: white;
+    margin-right:10; 
+    font-size:37;
+    transition: 0.2s !important;
+}
+#headerfont:hover{
+    cursor: pointer !important;
+    transform: scale(1.09,1.09) !important;
+    transition: 0.2s !important;
+}
+#loginBox{
+    
+    display: block;
+    margin: auto;
+    height: 500px;
+    width: 450px;
+    background-color:#2f3030;
+    border-radius: 20px;
+    box-shadow:5px 10px 90px rgba(102,0,102, 1); 
+}
+@media screen and (max-width:500px){
+    #loginBox{
+        position: relative;
+        top:50pt;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+}
+    #username{
+    outline: none;
+    position:relative;
+    padding-left:15px;
+    top:50pt;
+        display: block;
+    margin:auto;
+    height:40;
+    width:350;
+    font-size:20px;
+    border-radius:20px;
+    border: none;
+}
+#password{
+    outline: none;
+    border: none;
+    padding-left:15px;
+    position:relative;
+    top:70pt;
+    font-size:20px;
+    height:40;
+    width:350;
+    border-radius:20px;
+    display: block;
+    margin:auto;
+    
+}
+@media screen and (max-width:500px){
+    #username{
+        margin-left: 5%;
+        margin-right:5%;
+        width:90%;
+    }
+    #password{
+        margin-left: 5%;
+        margin-right:5%;
+        width:90%;
+    }
+}
+
+#userlabel{
+    color: white;
+    position:absolute;
+    top: 150;
+    left:80; 
+    font-family: nunito;
+    
+    font-size: 25;
+}
+#passlabel{
+    color: white;
+    position:absolute;
+    top: 240;
+    left:80; 
+    font-family: nunito;
+    
+    font-size: 25;
+}
+#submit{
+    color: aliceblue;
+    background-color:rgba(102,0,102, 1);
+    position:relative;
+    top:100pt;
+    display: block;
+    margin:auto;
+    font-size: 25;
+    height:45px;
+    width:100px;
+    border-radius:20px;
+    border: none;
+    font-family: nunito;
+    outline: none;
+    
+}
+#submit:hover{
+    cursor: pointer;
+    background-color:rgb(83, 8, 83);
+
+}
+#greettext{
+    text-shadow:5px 5px 30px black;
+    font-size:3vw;
+    color: white;
+    font-family:nunito;
+    position: relative;
+    top:50pt;
+    
+    max-width:40%;
+    display:block;
+    margin: auto;
+    
+    text-align: center;
+}
+@media screen and (max-width:500px){
+    #greettext{
+        font-size: 7vw;
+    }
+}
+#pageicon{
+    position:relative;
+    top:20pt; 
+    height:35vh;
+    display: block;
+    margin: auto;
+   
+}
+
+#userPic{
+    height:150;
+    position:relative;
+    display: block;
+    margin: auto;
+    top:20pt;
+    
+}
+#loadscreen{
+    background: black;
+    position: fixed;
+    display: block;
+    height: 100% !important;
+    width: 100%;
+    z-index:9999;
+    
+}
+.loading {
+  position: fixed;
+  left:0;
+  top:0;
+  bottom: 0;
+  right: 0;
+    margin: auto;
+}
+

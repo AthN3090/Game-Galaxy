@@ -14,6 +14,7 @@ if(isset($_POST['newgame'])){
     $publisher = mysqli_real_escape_string($db,$_POST['publisher']);
     $released_date= mysqli_real_escape_string($db,$_POST['released_date']);
     $platform = mysqli_real_escape_string($db,$_POST['platform']);
+    $tag = mysqli_real_escape_string($db,$_POST['tag']);
     $data_check=0;
     $query="select title from games";
     $result= mysqli_query($db,$query);
@@ -28,9 +29,9 @@ if(isset($_POST['newgame'])){
     
     if($data_check==0){
     $query = "INSERT INTO games (title,image_path,video,description,price,category,
-    developer,publisher,released_date,platform) VALUES 
+    developer,publisher,released_date,platform,tag) VALUES 
     ('$game_name','$image_path','$youtube_code','$description','$price','$category',
-    '$developer','$publisher','$released_date','$platform')";
+    '$developer','$publisher','$released_date','$platform','$tag')";
     mysqli_query($db,$query);
     fetch_game_titles();
     }
@@ -58,7 +59,9 @@ function fetch_game_titles(){
     }
 
 
+function fill_games(){
 
+}
     
 
 ?>

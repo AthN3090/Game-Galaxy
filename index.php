@@ -77,8 +77,13 @@
 								<li><a href="page_contactus.php">Support</a></li>
 							</ul>
 						</li>
-				
+						<li style="float:right;">
+							<a href="user_login.php">Log in</a>
+							
+						</li>
 			</ul>
+			
+			
         </nav>
     </div>
 		<!-- Slider of the top-->
@@ -228,7 +233,7 @@
 					
 					<div class="game_frame">
 					<th><a href="page_featured_games.php#sm_odyssey"><img src = "img/games/game_adventure0.png" alt = "FEATURED_GAMES"</a></th>
-					<p class="info_text">Super Mario Odyssey</p>
+					<p class="info_text">Thief</p>
 					<a href="page_featured_games.php#sm_odyssey" class="info_link">More info</a>
 					</div>
 					
