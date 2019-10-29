@@ -1,5 +1,5 @@
 <!doctype html>
-<?php include('./php/server.php'); ?>
+<?php require './php/server.php' ?>
 <html lang="en-us">
 
 	<!-- Header of the page-->
@@ -19,6 +19,12 @@
 	
 	<!-- Body of the page starts here-->
 	<body id="body">
+	<script src="./js/ajax.js"></script>
+	<?php
+
+	fetch_game_main($db);
+	
+	?>
 	
 	<div class = "container">
 	<!-- Top of the page that use the logo-->
@@ -229,12 +235,18 @@
 			
 			
 			<div id = "inner_frame">
-				<tr>
+				
 					
-					<div class="game_frame">
-					<th><a href="page_featured_games.php#sm_odyssey"><img src = "img/games/game_adventure0.png" alt = "FEATURED_GAMES"</a></th>
-					<p class="info_text">Thief</p>
-					<a href="page_featured_games.php#sm_odyssey" class="info_link">More info</a>
+					<!-- 
+				<div class="game_frame">
+					<th>
+					 <a href="page_featured_games.php#sm_odyssey">
+					  <img src = "img/games/game_adventure0.png" alt = "FEATURED_GAMES">
+					 </a>
+					</th>
+				    <p class="info_text">Thief</p>
+					<a href="page_featured_games.php#sm_odyssey" class="info_link">More info
+					</a>
 					</div>
 					
 					
@@ -258,9 +270,9 @@
 					<p class="info_text">Shadow of War</p>
 					<a href="page_featured_games.php#shadow_of_war" class="info_link">More info</a>
 					</div>
-				</tr>
+				
 			
-				<tr>
+				
 					<div class="game_frame">
 					<th><a href="page_featured_games.php#ffxv"><img src = "img/games/game_rpg0.png" alt = "FEATURED_GAMES"</a></th>
 					<p class="info_text">Final Fantasy XV</p>
@@ -284,10 +296,7 @@
 					<p class="info_text">Assassin's Creed: Origins</p>
 					<a href="page_featured_games.php#origins" class="info_link">More info</a>
 						</div>
-						
-				</tr>
-				<tr>
-					
+			
 					<div class="game_frame">
 					<th><a href="page_featured_games.php#TEW2"><img src = "img/games/game_other02.png" alt = "FEATURED_GAMES"</a></th>
 					<p class="info_text">The Evil Within 2</p>
@@ -311,8 +320,8 @@
 					<p class="info_text">Call of Duty: WWII</p>
 					<a href="page_featured_games.php#codww2" class="info_link">More info</a>
 					</div>
-					
-				</tr>
+					-->
+				
 			</div>
 			
 			
@@ -334,8 +343,8 @@
 		
 			<!-- <table> Table will make them smaller when decreasing page size -->
 			<div id = "inner_frame">
-				<tr>
-					<div class="game_frame">
+				
+				<!--	<div class="game_frame">
 					<th><a href="page_best_sellers.php#codww2"><img src = "img/games/game_shooter02.jpg" alt = "BEST_SELLERS"</a></th>
 					<p class="info_text">Call of Duty: WWII</p>
 					<a href="page_featured_games.php#codww2" class="info_link">More info</a>
@@ -358,8 +367,7 @@
 					<p class="info_text">Wolfensten II</p>
 					<a href="page_featured_games.php#wolf2" class="info_link">More info</a>
 					</div>
-				</tr>
-				<tr>
+				
 					<div class="game_frame">
 					<th><a href="page_best_sellers.php#pc2"><img src = "img/games/game_racing02.jpg" alt = "BEST_SELLERS"</a></th>
 					<p class="info_text">Project Cars 2</p>
@@ -383,8 +391,7 @@
 					<p class="info_text">Shadow of War</p>
 					<a href="page_featured_games.php#shadow_of_war" class="info_link">More info</a>
 					</div>
-				</tr>
-				<tr>
+				
 					<div class="game_frame">
 					<th><a href="page_best_sellers.php#origins"><img src = "img/games/game_adventure01.jpg" alt = "BEST_SELLERS"</a></th>
 					<p class="info_text">Assassin's Creed: Origins</p>
@@ -408,7 +415,8 @@
 					<p class="info_text">Nier: Automata</p>
 					<a href="page_featured_games.php#nier" class="info_link">More info</a>
 					</div>
-				</tr>
+					-->
+				
 			</div>
 			<!-- </table> -->
 		
@@ -423,8 +431,8 @@
 		<div class = "on_sale">
 
 		<div id = "inner_frame">
-			<tr>
-				<div class="game_frame">
+			
+			<!--	<div class="game_frame">
 				<th><a href="page_on_sale.php#NOA"><img src = "img/games/game_other01.png" alt = "ON_SALE"</a></th>
 				<p class="info_text">Nights of Azure</p>
 				<a href="page_featured_games.php#NOA" class="info_link">More info</a>
@@ -477,7 +485,7 @@
 					<p class="info_text">Grand Theft Auto V</p>
 					<a href="page_on_sale.php#gtav" class="info_link">More info</a>
 					</div>
-			</tr>
+			-->
 		</div>
 		
 		</div>

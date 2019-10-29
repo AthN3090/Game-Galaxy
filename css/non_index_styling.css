@@ -121,6 +121,7 @@
 	clear:both;
 }
 .button {
+	height: 70px;
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
@@ -239,6 +240,7 @@
 	margin:auto;
 	width:90%;
 	padding:3px;
+	overflow:hidden;
 	background-color:#414244;
 }
 #button_left{

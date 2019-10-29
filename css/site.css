@@ -5,6 +5,18 @@
 	text-decoration: none;
 	box-sizing:border-box
 }
+.button_left {
+	float: left;
+	width: 45%;
+	margin-top: 5px;
+	
+}
+.button_right{
+	margin-top: 5px;
+	width: 45%;
+float: right;
+	
+}
 #body{
 	background-image: url(../img/background/main_backg.jpg);
 	background-size: cover;
@@ -85,7 +97,7 @@ nav a {
 	transition: all .25s ease;
 }
 nav .dropdown {
-	background:url('../images/arrow.jpg') no-repeat right center;
+	/*background:url('../images/arrow.jpg') no-repeat right center;*/
 }
 nav li:hover a {
 	background: #01abf8;
@@ -409,6 +421,8 @@ display:none
 .game_frame{
 	float:none;
 	margin:0px;
+	margin-left:10px;
+	margin-right:10px;
 	display:inline-block;
 	margin-bottom:8%; /*distance of games*/
 }
@@ -451,7 +465,7 @@ margin-bottom:5%;
 .wrap_right .button {
     padding: 2px 4px;
 	color:white;
-    margin: 2px 1px;  
+	margin: 2px 1px;  
 }
 @media only screen and (max-width: 2500px) {
 	width: 85%;

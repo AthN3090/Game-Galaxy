@@ -73,7 +73,10 @@
 									
 								</ul>
 							</li>
-					
+							<li style="float:right;">
+							<a href="user_login.php">Log in</a>
+							
+						</li>
 						</ul>
 				</nav>
 			</div>

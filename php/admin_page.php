@@ -113,11 +113,11 @@
 
 
     
-</script></script>
+
     <body><script src="../js/ajax.js"></script>
     <?php
        
-       fetch_game_titles(); //call to fetch functions
+       fetch_game_titles($db); //call to fetch functions
     
     ?>
 
@@ -128,8 +128,8 @@
             <form action="admin_page.php" method="post">
                 <input type="text" placeholder="Title" class="input_field" name="game_name" required>
                 <input type="text" placeholder="Image name" class="input_field" name="image_path" required>
-                <input type="text" placeholder="Youtube Embed video Code" class="input_field" name="youtube_code" required>
-                <textarea maxlength="200" placeholder="Description" style="height:100px;width: 95%;outline:none;" name="description" required></textarea>
+                <input type="text" placeholder="Youtube link" class="input_field" name="youtube_code" required>
+                <textarea placeholder="Description" style="height:100px;width: 95%;outline:none;" name="description" required></textarea>
                 <input type="number" placeholder="price" class="input_field" name="price" required>
                 <select required style="outline:none;height: 25pt;width: 95%;border-radius: 5pt;margin: 10px;padding-left: 10px;" name="category" >
                     <option disabled selected>Category</option>
@@ -147,6 +147,7 @@
                     <option selected disabled>Platform</option>
                     <option >PC</option>  
                     <option >PS4</option>
+                    <option >Nintendo</option>
                     <option >XBOX ONE</option>
                     <option >XBOX ONE, PC, PS4</option>
                     <option >XBOX ONE, PC</option>
