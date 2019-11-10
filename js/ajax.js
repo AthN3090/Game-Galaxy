@@ -308,3 +308,23 @@ function display_tagged_games(target){
 
 }
 
+function usercheck(){ //send the name of the game to the php through ajax for deletion
+   
+   var http = new XMLHttpRequest();
+  
+http.onreadystatechange = function(){
+   if(http.readyState == 4 && http.status==200){ 
+      if(this.responseText==0){
+         
+      document.getElementById('hidelogout').style.visibility = "hidden";
+
+      }
+   }
+}
+
+http.open("POST","./php/user_check.php",true);
+http.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+http.send("user=1");
+
+   }
+

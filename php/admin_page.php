@@ -1,4 +1,8 @@
-<?php include('server.php'); ?>
+<?php include('server.php'); 
+if(!isset($_SESSION['activeAdmin'])){
+    header("Location:admin_login.php");
+ }
+ ?>
 <html>
     <head>
         <title>admin</title>
@@ -109,6 +113,20 @@
         color:white;
         background-color:green;
     }
+    #logout{
+        background-color:#cc0000;
+        border:none;
+        border-radius:50px;
+        width:100px;
+        height:50px;
+        position:relative;
+        top:-50px;
+        color:white;
+        outline:none;
+    }
+    #logout:hover{
+        cursor:pointer;
+    }
     </style>
 
 
@@ -116,6 +134,7 @@
 
     <body><script src="../js/ajax.js"></script>
     <?php
+       
        
        fetch_game_titles($db); //call to fetch functions
     
@@ -185,7 +204,9 @@
 
         </div>
         </div>
-
+<form method="POST">
+     <center> <input type="submit" id="logout" value="Log out" name="adminlogout"></center>
+</form>
     </body>
     
 </html>

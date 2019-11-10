@@ -96,6 +96,7 @@ nav a {
 	-o-transition: all .25s ease;
 	transition: all .25s ease;
 }
+
 nav .dropdown {
 	/*background:url('../images/arrow.jpg') no-repeat right center;*/
 }
@@ -112,16 +113,17 @@ nav li ul {
 	top: 35px;
 	visibility: hidden;
 	z-index: 1;
-	-webkit-transition: all .45s ease;
-	-moz-transition: all .45s ease;
-	-ms-transition: all .45s ease;
-	-o-transition: all .45s ease;
-	transition: all .45s ease;
+	
 }
 nav li:hover ul {
 	opacity: 1;
 	top: 50px;
 	visibility: visible;
+	-webkit-transition: all .45s ease;
+	-moz-transition: all .45s ease;
+	-ms-transition: all .45s ease;
+	-o-transition: all .45s ease;
+	transition: all .45s ease;
 }
 nav li ul li {
 	float: none;

@@ -19,7 +19,11 @@
 	
 	<!-- Body of the page starts here-->
 	<body id="body">
+	
 	<script src="./js/ajax.js"></script>
+	<script>
+	 usercheck();
+	</script>
 	<?php
 
 	fetch_game_main($db);
@@ -83,10 +87,36 @@
 								<li><a href="page_contactus.php">Support</a></li>
 							</ul>
 						</li>
-						<li style="float:right;">
-							<a href="user_login.php">Log in</a>
+						
+						<li style="float:right;border-bottom:solid;">
+							<a href="user_login.php"><font size="3"  color="cyan"><?php 
+							if(isset($_SESSION['activeUser'])){
+								echo $_SESSION['activeUser'];
+							}
+							else
+								echo "Log in";
+							
+							?></font>
+							</a>
+							<ul id="hidelogout">
+							<li style="float:right;">
+							<a><form method="POST">
+							<input name="userLogout" style="
+										cursor:pointer;
+										background: transparent;
+										outline:none;
+										border:none;
+										color:white;
+										padding:0px;"
+							type="submit" value="Log out"></input>
+							</form>
+						</a>
+						</li>
+							</ul>
 							
 						</li>
+						
+						
 			</ul>
 			
 			
@@ -95,24 +125,24 @@
 		<!-- Slider of the top-->
 		<div class = "slider">
 			<figure>
-				<div class="slide">
-					<img src="img/slide/banner00.png">
+				<div class="slide" >
+					<img src="img/slide/banner00.png" >
 				</div>
 			
 				<div class="slide">
-					<img src="img/slide/banner01.png">
+					<img src="img/slide/banner01.png" >
 				</div>
 			
 				<div class="slide">
-					<img src="img/slide/banner02.png">
+					<img src="img/slide/banner02.png" >
 				</div>
 			
 				<div class="slide">
-					<img src="img/slide/banner03.png">
+					<img src="img/slide/banner03.png" >
 				</div>
 			
 				<div class="slide">
-					<img src="img/slide/banner04.png">
+					<img src="img/slide/banner04.png" >
 				</div>
 			</figure>
 		</div>
@@ -191,7 +221,7 @@
 				<div class="mySlides fade">
 				  <div class="numbertext">2 / 3</div>
 				  <img src="img/background/backg06.png" style="width:100%">
-				  <div class="text">BUY NOW: NIOH 30% OFF!!!</div>
+				  <div class="text">BUY NOW: COD:WWII 30% OFF!!!</div>
 				</div>
 
 				<div class="mySlides fade">

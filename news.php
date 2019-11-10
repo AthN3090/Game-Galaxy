@@ -1,3 +1,4 @@
+<?php require './php/server.php' ?>
 <!doctype html>
 <html lang="en-us">
 
@@ -13,6 +14,10 @@
 		<link rel="stylesheet" href="css/news.css">					<!-- Needed for news page styling-->
 		<script type="text/javascript" src="js/scripts.js"></script>
 	</head>
+	<script src="./js/ajax.js"></script>
+	<script>
+	 usercheck();
+	</script>
 	
 	<!-- Body of the page starts here-->
 	<body id="body_news">
@@ -73,10 +78,34 @@
 									
 								</ul>
 							</li>
+							<li style="float:right;border-bottom:solid;">
+							<a href="user_login.php"><font size="3"  color="cyan"><?php 
+							if(isset($_SESSION['activeUser'])){
+								echo $_SESSION['activeUser'];
+							}
+							else
+								echo "Log in";
+							
+							?></font>
+							</a>
+							<ul id="hidelogout">
 							<li style="float:right;">
-							<a href="user_login.php">Log in</a>
+							<a><form method="POST">
+							<input name="userLogout" style="
+										cursor:pointer;
+										background: transparent;
+										outline:none;
+										border:none;
+										color:white;
+										padding:0px;"
+							type="submit" value="Log out"></input>
+							</form>
+						</a>
+						</li>
+							</ul>
 							
 						</li>
+						
 						</ul>
 				</nav>
 			</div>

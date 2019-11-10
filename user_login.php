@@ -1,5 +1,10 @@
+<?php include('./php/server.php'); 
 
-<?php include('./php/server.php') ?>
+if(isset($_SESSION['activeUser'])){
+    header("location:user_profile.php");
+}
+
+?>
 
 <html>
 
@@ -50,9 +55,9 @@
            
                     <input id="password"  type="password" placeholder="Password" name="password" required>
         
-                    <input type="submit" id="submit" value="LogIn" name="LogIn">
+                    <input type="submit" id="submit" value="LogIn" name="userLogin">
             
-                    <center><font style="position:relative;top:140pt;" color="white" face="nunito">Not a member? <a style="color: rgba(102,0,102, 1);"  href="sign_up.php">SignUp</a></font></center> 
+                    <center><font style="position:relative;top:140pt;" color="white" face="nunito">Not a member? <a style="color: rgba(102,0,102, 1);"  href="user_signup.php">SignUp</a></font></center> 
         
                 </form><!-- login form ends -->
     
