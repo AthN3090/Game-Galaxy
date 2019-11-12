@@ -246,7 +246,6 @@ header("location: index.php");
         header("location:user_profile");
         }
 //inserting user details
-    
     if(empty($pass) && empty($cpass)){
         $query="UPDATE users SET name = '$name', username = '$username', email = '$email', mobile = '$mobnumber',address = '$address' WHERE username = '$sessionuser'";
     }else{
@@ -255,6 +254,8 @@ header("location: index.php");
     }
     
             mysqli_query($db,$query);
+            $_SESSION['activeUser'] = $username;
+    
             header("location: index.php");
 
 }

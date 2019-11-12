@@ -4,8 +4,6 @@ if(!isset($_SESSION['activeUser'])){
     header("location:user_login.php");
 }
 
-$username = $_SESSION['activeUser'];
-
 $query = "SELECT * FROM users WHERE username = '$username'";
 $result = mysqli_query($db,$query);
 $data = mysqli_fetch_array($result);
