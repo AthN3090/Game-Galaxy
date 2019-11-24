@@ -5,6 +5,8 @@
 	text-decoration: none;
 	box-sizing:border-box
 }
+
+
 .button_left {
 	float: left;
 	width: 45%;
@@ -406,9 +408,9 @@ display:none
 }
 #inner_frame{
 	/*padding:5px;*/
-	/*margin: 10px;*/
+	/*margin: 10px;*/ 
 	border: 1.5px double black;
-	background-color:rgba(32,32,32,0.91);
+	background-color:rgba(32,32,32,0.91); 
 }
 #social_news_index img{
 	padding:3px;
@@ -469,9 +471,9 @@ margin-bottom:5%;
 	color:white;
 	margin: 2px 1px;  
 }
+}
 @media only screen and (max-width: 2500px) {
 	width: 85%;
 }
-
 
 

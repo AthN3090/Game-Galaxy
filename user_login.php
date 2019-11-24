@@ -38,7 +38,7 @@ if(isset($_SESSION['activeUser'])){
 
     <body class="homeBody">
     <div id="navbar"><!-- topbar for search and title -->
-        <a href="index.php"><font id="headerfont">ATA</font></a>
+        <a href="index.php"><font id="headerfont">Home</font></a>
     </div>
 
     <!-- bootstrap cointainer -->
@@ -57,7 +57,7 @@ if(isset($_SESSION['activeUser'])){
         
                     <input type="submit" id="submit" value="LogIn" name="userLogin">
             
-                    <center><font style="position:relative;top:140pt;" color="white" face="nunito">Not a member? <a style="color: rgba(102,0,102, 1);"  href="user_signup.php">SignUp</a></font></center> 
+                    <center><font style="position:relative;top:140pt;" color="white" face="nunito">Not a member? <a style="color:#28a658;"  href="user_signup.php">SignUp</a></font></center> 
         
                 </form><!-- login form ends -->
     

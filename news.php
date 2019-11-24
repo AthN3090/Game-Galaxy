@@ -90,6 +90,19 @@
 							</a>
 							<ul id="hidelogout">
 							<li style="float:right;">
+							<a><form method="POST" action="user_cart.php">
+							<input name="cart" style="
+										cursor:pointer;
+										background: transparent;
+										outline:none;
+										border:none;
+										color:white;
+										padding:0px;"
+							type="submit" value="View cart"></input>
+							</form>
+						</a>
+						</li>
+							<li style="float:right;">
 							<a><form method="POST">
 							<input name="userLogout" style="
 										cursor:pointer;
@@ -118,13 +131,13 @@
 			<!-- News Block start-->
 			
 			<!-- News 1-->
-				<p id="top_space"></p>
+				
 				<div class = "outer_news" id="nintendo1">
 					<h1 id="title_news">Double the battery life on your Nintendo Switch with this awesome accessory</h1>
 						<h5>Raging when the battery runs out? The solution is right here</h5>
-							<image src = "img/social/dev0.png" alt = "social0" id="author_img"></a>
-							<p class="small">by: Ibrahima Doumbia<br/>
-							Posted on December 1, 2017</p>
+						<image src = "img/logo/logo2.png" alt = "social0" id="author_img">
+							<p class="small">by: Games Galaxy Team<br/>
+							Posted on November 01, 2019</p>
 							<img src="img/news/news2.png" id="news_picture">
 						
 						<p class ="big">As is the case with a smartphone, the most annoying thing about the Nintendo Switch is that it tends to run out of battery when you need it most. But again, just like a smartphone,
@@ -146,17 +159,10 @@
 						Net weight: 227g
 						</p>
 						
-						<a href="https://www.amazon.com/Switch-Battery-Charger-Portable-6500mAh-Extended/dp/B07314ZP7L?SubscriptionId=AKIAIPK5F55TNVMRHSZQ&tag=bgwr1b-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07314ZP7L"><img src="img/news/news_extra0.png" id="news_picture" ></a>
+						
 						
 						<p class="big" id="nintendo">Category: Nintendo Switch</p>
-						<div id="social_news">
-						<a href="https://www.facebook.com/Games-Galaxy-1805648999468804/"><image src = "img/social/ico00.png" alt = "social0"></a>
-						<a href="https://www.instagram.com/northamericanu/"><image src = "img/social/ico01.png" alt = "social0"></a>
-						<a href="https://www.youtube.com/watch?v=_yF08r-49m0&feature=youtu.be"><image src = "img/social/ico02.png" alt = "social0"></a>
-						<a href="https://twitter.com/NorthAmericanU"><image src = "img/social/ico03.png" alt = "social0"></a>
-						<a href="https://www.twitch.tv/"><image src = "img/social/ico04.png" alt = "social0"></a>
-						<a href="https://www.linkedin.com/"><image src = "img/social/ico05.png" alt = "social0"></a>
-						</div>
+						
 						
 						<div id = "clear"></div>
 					<div id = "clear"></div>
@@ -170,9 +176,9 @@
 				<div class = "outer_news" id="nintendo2">
 					<h1 id="title_news">Xenoblade Chronicles 2: How to Get Salty Soil</h1>
 						<h5>Stop wasting time looking around, we got your back!</h5>
-							<image src = "img/social/dev1.png" alt = "social0" id="author_img"></a>
-							<p class="small">by: Jesus Marmol<br/>
-							Posted on December 4, 2017</p>
+						<image src = "img/logo/logo2.png" alt = "social0" id="author_img">
+							<p class="small">by: Games Galaxy Team<br/>
+							Posted on November 02, 2019</p>
 							<img src="img/news/news3.png" id="news_picture_style_2">
 						
 						<p class ="big">Xenoblade Chronicles 2 offers a vast world for players to explore and make the
@@ -197,14 +203,7 @@
 						<img src="img/news/xeno1.jpg" id="news_picture_style_3">
 						<div id = "clear"></div>
 						<p class="big" id="nintendo">Category: Nintendo Switch</p>
-						<div id="social_news">
-						<a href="https://www.facebook.com/Games-Galaxy-1805648999468804/"><image src = "img/social/ico00.png" alt = "social0"></a>
-						<a href="https://www.instagram.com/northamericanu/"><image src = "img/social/ico01.png" alt = "social0"></a>
-						<a href="https://www.youtube.com/watch?v=_yF08r-49m0&feature=youtu.be"><image src = "img/social/ico02.png" alt = "social0"></a>
-						<a href="https://twitter.com/NorthAmericanU"><image src = "img/social/ico03.png" alt = "social0"></a>
-						<a href="https://www.twitch.tv/"><image src = "img/social/ico04.png" alt = "social0"></a>
-						<a href="https://www.linkedin.com/"><image src = "img/social/ico05.png" alt = "social0"></a>
-						</div>
+						
 						
 						<div id = "clear"></div>
 						
@@ -216,9 +215,10 @@
 				<div class = "outer_news" id="xboxone1">
 					<h1 id="title_news">The best Xbox One games</h1>
 						<h5>This is how you should spend your time gaming on the Xbox One</h5>
-							<image src = "img/social/dev2.png" alt = "social0" id="author_img"></a>
-							<p class="small">by: Leland Barnard<br/>
-							Posted on December 7, 2017</p>
+						<image src = "img/logo/logo2.png" alt = "social0" id="author_img">
+							<p class="small">by: Games Galaxy Team<br/>
+							Posted on November 02, 2019</p>
+	
 							<img src="img/news/pic_xbox.png" id="news_picture_style_4">
 						
 						<p class ="big"></br>The Xbox One has come a long way since its 2013 debut. Microsoft has fixed the
@@ -296,14 +296,7 @@
 						
 						<div id = "clear"></div>
 						<p class="big" id="nintendo">Category: Xbox One</p>
-						<div id="social_news">
-						<a href="https://www.facebook.com/Games-Galaxy-1805648999468804/"><image src = "img/social/ico00.png" alt = "social0"></a>
-						<a href="https://www.instagram.com/northamericanu/"><image src = "img/social/ico01.png" alt = "social0"></a>
-						<a href="https://www.youtube.com/watch?v=_yF08r-49m0&feature=youtu.be"><image src = "img/social/ico02.png" alt = "social0"></a>
-						<a href="https://twitter.com/NorthAmericanU"><image src = "img/social/ico03.png" alt = "social0"></a>
-						<a href="https://www.twitch.tv/"><image src = "img/social/ico04.png" alt = "social0"></a>
-						<a href="https://www.linkedin.com/"><image src = "img/social/ico05.png" alt = "social0"></a>
-						</div>
+						
 						
 						<div id = "clear"></div>
 						
@@ -316,26 +309,25 @@
 				<div class = "outer_news" id="pc_gamer1">
 					<h1 id="title_news">Save 20% off a PC Gamer or Maximum PC subscription in our 24-hour flash sale</h1>
 						<h5>Missed black friday? Were you broke? No problem, just use the code FESTIVE20 to save some bucks</h5>
-							<image src = "img/social/dev1.png" alt = "social0" id="author_img"></a>
-							<p class="small">by: Jesus Marmol<br/>
-							Posted on November 28, 2017</p>
+						<image src = "img/logo/logo2.png" alt = "social0" id="author_img">
+							<p class="small">by: Games Galaxy Team<br/>
+							Posted on November 03, 2019</p>
 							<img src="img/news/img_pc_0.png" id="news_picture_style_5">
 						
 						<p class ="big">Missed our Black Friday sale? You can save an extra 20% off all PC Gamer 
-						subscriptions today only by clicking here and using the code FESTIVE20. This applies to both US 
-						and UK versions of the magazine—the link will autodetect whichever territory you live in. For US 
-						residents, this means a year of PC Gamer to your door for just $19.20.</br>
+						subscriptions today only by clicking here and using the code FESTIVE20. For Indian 
+						residents, this means a year of PC Gamer to your door for just Rs 1,381.71</br>
 
-						For UK readers, this is on top of our already discounted holiday sale prices, meaning you can 
-						subscribe to the print version of the magazine for under £3.50 an issue if you live in the UK, 
+						For indian readers, this is on top of our already discounted holiday sale prices, meaning you can 
+						subscribe to the print version of the magazine for under Rs 277.14 an issue if you live in the India, 
 						which is a massive saving. You'll also get downloadable gifts every month and exclusive subscriber
-						covers with the UK print edition.</br>
+						covers with the indian print edition.</br>
 
-						The same deal also applies to our hardware-focused sister magazine Maximum PC. US residents can
-						get this for just $19.20 with the code FESTIVE20.</br>
+						The same deal also applies to our hardware-focused sister magazine Maximum PC. Indian residents can
+						get this for just Rs 1,381.71 with the code FESTIVE20.</br>
 
 						Prices vary depending on where you live, but it's 20% off everything regardless of where you live.
-						This offer ends at 16.30 UK time on November 7th. That's tomorrow or today, depending on when 
+						This offer ends at 08.00 Indian time on November 25th. That's tomorrow or today, depending on when 
 						you're reading this. Be quick!
 						</p>
 						
@@ -343,14 +335,7 @@
 						
 						<div id = "clear"></div>
 						<p class="big" id="nintendo">Category: PC</p>
-						<div id="social_news">
-						<a href="https://www.facebook.com/Games-Galaxy-1805648999468804/"><image src = "img/social/ico00.png" alt = "social0"></a>
-						<a href="https://www.instagram.com/northamericanu/"><image src = "img/social/ico01.png" alt = "social0"></a>
-						<a href="https://www.youtube.com/watch?v=_yF08r-49m0&feature=youtu.be"><image src = "img/social/ico02.png" alt = "social0"></a>
-						<a href="https://twitter.com/NorthAmericanU"><image src = "img/social/ico03.png" alt = "social0"></a>
-						<a href="https://www.twitch.tv/"><image src = "img/social/ico04.png" alt = "social0"></a>
-						<a href="https://www.linkedin.com/"><image src = "img/social/ico05.png" alt = "social0"></a>
-						</div>
+						
 						
 						<div id = "clear"></div>
 						
@@ -362,9 +347,9 @@
 					<div class = "outer_news" id="sony1">
 					<h1 id="title_news">Free PS4 PS Plus Games For December 2017 Now Available</h1>
 						<h5>That's the way you do it, SONY</h5>
-							<image src = "img/logo/logo2.png" alt = "social0" id="author_img"></a>
+							<image src = "img/logo/logo2.png" alt = "social0" id="author_img">
 							<p class="small">by: Games Galaxy Team<br/>
-							Posted on November 25, 2017</p>
+							Posted on November 04, 2019</p>
 							<img src="img/news/img_ps4_0.png" id="news_picture_style_5">
 						
 						<p class ="big">It's officially December, and the first Tuesday of the month has brought with it a
@@ -415,14 +400,7 @@
 						
 						<p class="big" id="nintendo">Category: PS4, PS4 Pro, PS3, PS Vita</p>
 						
-						<div id="social_news">
-						<a href="https://www.facebook.com/Games-Galaxy-1805648999468804/"><image src = "img/social/ico00.png" alt = "social0"></a>
-						<a href="https://www.instagram.com/northamericanu/"><image src = "img/social/ico01.png" alt = "social0"></a>
-						<a href="https://www.youtube.com/watch?v=_yF08r-49m0&feature=youtu.be"><image src = "img/social/ico02.png" alt = "social0"></a>
-						<a href="https://twitter.com/NorthAmericanU"><image src = "img/social/ico03.png" alt = "social0"></a>
-						<a href="https://www.twitch.tv/"><image src = "img/social/ico04.png" alt = "social0"></a>
-						<a href="https://www.linkedin.com/"><image src = "img/social/ico05.png" alt = "social0"></a>
-						</div>
+						
 						
 						<div id = "clear"></div>
 				</div>
@@ -434,51 +412,31 @@
 
 				
 	</body>
-		
-			<div id = "on_sale_advertise">
-			
-				<p>Feeling like playing something new? Check these games out!</p>
 				
-			</div>
-		
-		<div class = "on_sale_non_index">
-		<table>
-			<tr>
-				<th><a href="page_on_sale.php#NOA"><img src = "img/games/game_other01.png" alt = "ON_SALE"</a></th>
-				<th><a href="page_on_sale.php#blue_reflection"><img src = "img/games/game_rpg01.png" alt = "ON_SALE"</a></th>
-				<th><a href="page_on_sale.php#fatal_frame_v"><img src = "img/games/game_other0.png" alt = "ON_SALE"</a></th>
-				<th><a href="page_on_sale.php#nfl17"><img src = "img/games/game_sports01.jpg" alt = "ON_SALE"</a></th>
-				<th><a href="page_on_sale.php#pdx"><img src = "img/games/game_other02.jpg" alt = "ON_SALE"</a></th>
-				<th><a href="page_on_sale.php#ffxv"><img src = "img/games/game_rpg0.png" alt = "ON_SALE"</a></th>
-				<th><a href="page_on_sale.php#rbi2017"><img src = "img/games/game_sports03.png" alt = "ON_SALE"</a></th>
-			</tr>
-		</table>
-		</div>
 		
 		<div id = "clear">
 		
 		<!-- Footer block starts here-->
 		<footer>
-		
-				<div class = "social">
+		<div class = "social">
 			
 					<h4>Follow us!</h4>
-					<a href="https://www.facebook.com/Games-Galaxy-1805648999468804/"><image src = "img/social/ico00.png" alt = "social0"></a>
-					<a href="https://www.instagram.com/northamericanu/"><image src = "img/social/ico01.png" alt = "social0"></a>
-					<a href="https://www.youtube.com/watch?v=_yF08r-49m0&feature=youtu.be"><image src = "img/social/ico02.png" alt = "social0"></a>
-					<a href="https://twitter.com/NorthAmericanU"><image src = "img/social/ico03.png" alt = "social0"></a>
-					<a href="https://www.twitch.tv/"><image src = "img/social/ico04.png" alt = "social0"></a>
-					<a href="https://www.linkedin.com/"><image src = "img/social/ico05.png" alt = "social0"></a>
+					<a href="#"><image src = "img/social/ico00.png" alt = "social0"></a>
+					<a href="#"><image src = "img/social/ico01.png" alt = "social0"></a>
+					<a href="#"><image src = "img/social/ico02.png" alt = "social0"></a>
+					<a href="#"><image src = "img/social/ico03.png" alt = "social0"></a>
+					<a href="#"><image src = "img/social/ico04.png" alt = "social0"></a>
+					<a href="#"><image src = "img/social/ico05.png" alt = "social0"></a>
 					
 				</div>
 				<div class="footer">
 					<a href="index.php">Home</a>
-					<a href="privacy.php">Privacy</a>
-					<a href="aboutus.php">About us</a>
-					<a href="contactus.php">Contact us</a>
+					<a href="#">Privacy</a>
+					<a href="page_aboutus.php">About us</a>
+					<a href="page_contactus.php">Contact us</a>
 				</div>
 				<div id = "rights">
-					<a>&copy; 2017 Games Galaxy Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.</a>
+					<a>&copy; 2019 Games Galaxy Corporation. All rights reserved.</a>
 				</div>
 
 		</div>

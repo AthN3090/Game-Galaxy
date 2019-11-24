@@ -47,7 +47,7 @@ http.onreadystatechange = function(){
    }
 }
 
-http.open("POST","../php/delete_game_admin.php",true);
+http.open("POST","../php/delete_game.php",true);
 http.setRequestHeader("Content-type","application/x-www-form-urlencoded");
 http.send("index="+delTitle);
 
@@ -178,13 +178,17 @@ function display_games(target){
          var button_left = document.createElement('div');
          button_left.setAttribute("class","button_left");
          var button1 = document.createElement('button');
+         button1.setAttribute("id",gameObj.id);
          button1.setAttribute("class","button");
+         button1.setAttribute("onclick","add_to_cart(this.id);");
          button1.innerHTML = "Add to Cart";
          button_left.appendChild(button1);
          platform_wrap.appendChild(button_left);
          var button_right = document.createElement('div');
          button_right.setAttribute("class","button_right");
          var button2 = document.createElement('button');
+         button2.setAttribute("onclick","location.href = '../SE_PROJECT/user_cart.php'");
+         button2.setAttribute("id",gameObj.id);
          button2.setAttribute("class","button");
          button2.innerHTML = "View cart";
          button_right.appendChild(button2);
@@ -279,13 +283,17 @@ function display_tagged_games(target){
          var button_left = document.createElement('div');
          button_left.setAttribute("class","button_left");
          var button1 = document.createElement('button');
+         button1.setAttribute("id", gameObj.id);
          button1.setAttribute("class","button");
+         button1.setAttribute("onclick","add_to_cart(this.id);");
          button1.innerHTML = "Add to Cart";
          button_left.appendChild(button1);
          platform_wrap.appendChild(button_left);
          var button_right = document.createElement('div');
          button_right.setAttribute("class","button_right");
          var button2 = document.createElement('button');
+         button2.setAttribute("id", gameObj.id);
+         button2.setAttribute("onclick","location.href = './user_cart.php'");
          button2.setAttribute("class","button");
          button2.innerHTML = "View cart";
          button_right.appendChild(button2);
@@ -328,3 +336,106 @@ http.send("user=1");
 
    }
 
+
+
+function add_to_cart(id){
+      var game_id = id;
+      var http = new XMLHttpRequest();
+      http.onreadystatechange = function(){
+         if(http.readyState == 4 && http.status == 200){           
+
+            if(this.responseText!=""){
+               alert(this.responseText);
+            }
+
+         }
+      }
+
+      http.open("POST","./php/add_to_cart.php",true);
+      http.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+      http.send("gameid="+game_id);
+   }
+   function display_cart(id){
+      var game_id = id;
+      var http = new XMLHttpRequest();
+      http.onreadystatechange = function(){
+         if(http.readyState == 4 && http.status == 200){           
+
+            console.log(this.responseText);
+            var item = JSON.parse(this.responseText);
+            var items = document.getElementsByClassName('items');
+            var item1 = document.createElement('div');
+            item1.setAttribute("class","item1");
+            var close1 = document.createElement('div');
+            close1.setAttribute("class","close1");
+            var alert_close1 = document.createElement('div');
+            alert_close1.setAttribute("onclick","remove_item(this.id);");
+            alert_close1.setAttribute("class","alert-close1");
+            alert_close1.setAttribute("id","--"+item.id);
+            var image1 = document.createElement('div');
+            image1.setAttribute("class","image1");
+            var img = document.createElement('img');
+            img.setAttribute("src","./img/games/"+item.image+".png");
+            var title1 = document.createElement('div');
+            title1.setAttribute("class","title1");
+            var p = document.createElement('p');
+            p.innerHTML = item.name;
+            var quantity1 = document.createElement('div');
+            quantity1.setAttribute("class","quantity1");
+            var input = document.createElement('input');
+            input.setAttribute("id",item.price+"_"+item.id);
+            input.setAttribute("type","number");
+            input.setAttribute("name","quantity");
+            input.setAttribute("onclick","quantity_check(this.id);");
+            input.setAttribute("min","1");
+            input.setAttribute("max","10");
+            input.setAttribute("value","1");
+            var price1 = document.createElement('div');
+            price1.setAttribute("class","price1");
+            var p1 = document.createElement('p');
+            p1.setAttribute("class","cost");
+            p1.setAttribute("id","01"+item.price+"_"+item.id);
+            p1.innerHTML = "Rs "+item.price;
+            var clear = document.createElement('div');
+            clear.setAttribute("class","clear");
+            close1.appendChild(alert_close1);
+            image1.appendChild(img);
+            close1.appendChild(image1);
+            title1.appendChild(p);
+            close1.appendChild(title1);
+            quantity1.appendChild(input);
+            close1.appendChild(quantity1);
+            price1.appendChild(p1);
+            close1.appendChild(price1);
+            close1.appendChild(clear);
+            item1.appendChild(close1);
+            items[0].appendChild(item1);
+
+         }
+      }
+
+      http.open("POST","./php/display_cart.php",true);
+      http.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+      http.send("game_id="+game_id);
+   }
+
+   function remove_item(id){
+      id = id.replace("--","");
+      console.log(id);
+      if(confirm("Are you sure want to remove this item form your cart ?")){
+         var http = new XMLHttpRequest();
+        
+      http.onreadystatechange = function(){
+         if(http.readyState == 4 && http.status==200){
+                      alert("Item removed successfully !");
+                      location.reload();
+         }
+      }
+      
+      http.open("POST","./php/remove_item.php",true);
+      http.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+      http.send("id="+id);
+      
+         }
+
+      }

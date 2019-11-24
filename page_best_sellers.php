@@ -96,6 +96,19 @@
 							</a>
 							<ul id="hidelogout">
 							<li style="float:right;">
+							<a><form method="POST" action="user_cart.php">
+							<input name="cart" style="
+										cursor:pointer;
+										background: transparent;
+										outline:none;
+										border:none;
+										color:white;
+										padding:0px;"
+							type="submit" value="View cart"></input>
+							</form>
+						</a>
+						</li>
+							<li style="float:right;">
 							<a><form method="POST">
 							<input name="userLogout" style="
 										cursor:pointer;
@@ -142,25 +155,25 @@
 		<!-- Footer block starts here-->
 		<footer>
 		
-				<div class = "social">
+		<div class = "social">
 			
-					<h4>Follow us!</h4>
-					<a href="https://www.facebook.com/Games-Galaxy-1805648999468804/"><image src = "img/social/ico00.png" alt = "social0"></a>
-					<a href="https://www.instagram.com/northamericanu/"><image src = "img/social/ico01.png" alt = "social0"></a>
-					<a href="https://www.youtube.com/watch?v=_yF08r-49m0&feature=youtu.be"><image src = "img/social/ico02.png" alt = "social0"></a>
-					<a href="https://twitter.com/NorthAmericanU"><image src = "img/social/ico03.png" alt = "social0"></a>
-					<a href="https://www.twitch.tv/"><image src = "img/social/ico04.png" alt = "social0"></a>
-					<a href="https://www.linkedin.com/"><image src = "img/social/ico05.png" alt = "social0"></a>
-					
-				</div>
-				<div class="footer">
-					<a href="index.php">Home</a>
-					<a href="privacy.php">Privacy</a>
-					<a href="page_aboutus.php">About uss</a>
-					<a href="page_contactus.php">Contact us</a>
-				</div>
+			<h4>Follow us!</h4>
+			<a href="#"><image src = "img/social/ico00.png" alt = "social0"></a>
+			<a href="#"><image src = "img/social/ico01.png" alt = "social0"></a>
+			<a href="#"><image src = "img/social/ico02.png" alt = "social0"></a>
+			<a href="#"><image src = "img/social/ico03.png" alt = "social0"></a>
+			<a href="#"><image src = "img/social/ico04.png" alt = "social0"></a>
+			<a href="#"><image src = "img/social/ico05.png" alt = "social0"></a>
+			
+		</div>
+		<div class="footer">
+			<a href="index.php">Home</a>
+			<a href="#">Privacy</a>
+			<a href="page_aboutus.php">About us</a>
+			<a href="page_contactus.php">Contact us</a>
+		</div>
 				<div id = "rights">
-					<a>&copy; 2017 Games Galaxy Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.</a>
+					<a>&copy; 2019 Games Galaxy Corporation. All rights reserved.</a>
 				</div>
 
 		</div>

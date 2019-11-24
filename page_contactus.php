@@ -1,3 +1,4 @@
+<?php require './php/server.php' ?>
 <!doctype html>
 <html lang="en-us">
 
@@ -94,6 +95,19 @@
 							</a>
 							<ul id="hidelogout">
 							<li style="float:right;">
+							<a><form method="POST" action="user_cart.php">
+							<input name="cart" style="
+										cursor:pointer;
+										background: transparent;
+										outline:none;
+										border:none;
+										color:white;
+										padding:0px;"
+							type="submit" value="View cart"></input>
+							</form>
+						</a>
+						</li>
+							<li style="float:right;">
 							<a><form method="POST">
 							<input name="userLogout" style="
 										cursor:pointer;
@@ -189,23 +203,25 @@
 			<div class="contactside">
 				<h3 class="sideline" style="text-align: center">Contact Information</h3>
 				<p><b>Our Office</b></p>
-				<p>11929 W Airport Blvd, Stafford TX 77477</p>
+				<p>BG-13, Tagore bhavan, SVNIT, Surat</p>
 				<p><b>Office Hours</b></p>
 				<p>Monday - Thursday: 8:30am to 7:00pm</p>
 				<p>Friday - Saturday: 9:00am to 5:30pm</pm>
 				<p>Sunday: Closed</p>
 				<p><b>Contact us</b></p>
 
-				<a href="tel:832-230-5555"><image src = "img/social/ico06.png" alt = "social0" style="width:40px;height:40px;padding:5px;cursor: pointer;margin-left:10px"</a>
+				<a href="tel:+919265456646"><image src = "img/social/ico06.png" alt = "social0" style="width:40px;height:40px;padding:5px;cursor: pointer;margin-left:10px"</a>
 				<a href="mailto:admissions@na.edu"><image src = "img/social/ico07.png" alt = "social0" style="width:40px;height:40px;padding:5px;cursor: pointer;"</a>
 				
 			</div>
 			<h3 id="map_header">Our location</h3>
 			<div>
 			
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d384960.7522042506!2d-95.9044533
-			1971179!3d29.611979860869518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640e7bdd9823c57%3
-			A0x4e335dcbd1aa4825!2sNorth+American+University+(NAU)!5e0!3m2!1sen!2sus!4v1479967313876" 
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!
+			1m12!1m3!1d3720.7916856082916!2d72.78713821502782!3d21.
+			160686885927056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1
+			!3m3!1m2!1s0x3be04df1d48abe53%3A0x999a950275a9f065!2s
+			Tagore%20Bhavan%20Hostel%20-%208!5e0!3m2!1sen!2sin!4v1573736936368!5m2!1sen!2sin" 
 			width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 			
@@ -230,25 +246,25 @@
 		<!-- Footer block starts here-->
 		<footer>
 		
-				<div class = "social">
+		<div class = "social">
 			
-					<h4>Follow us!</h4>
-					<a href="https://www.facebook.com/Games-Galaxy-1805648999468804/"><image src = "img/social/ico00.png" alt = "social0"></a>
-					<a href="https://www.instagram.com/northamericanu/"><image src = "img/social/ico01.png" alt = "social0"></a>
-					<a href="https://www.youtube.com/watch?v=_yF08r-49m0&feature=youtu.be"><image src = "img/social/ico02.png" alt = "social0"></a>
-					<a href="https://twitter.com/NorthAmericanU"><image src = "img/social/ico03.png" alt = "social0"></a>
-					<a href="https://www.twitch.tv/"><image src = "img/social/ico04.png" alt = "social0"></a>
-					<a href="https://www.linkedin.com/"><image src = "img/social/ico05.png" alt = "social0"></a>
-					
-				</div>
-				<div class="footer">
-					<a href="index.php">Home</a>
-					<a href="privacy.php">Privacy</a>
-					<a href="page_aboutus.php">About us</a>
-					<a href="page_contactus.php">Contact us</a>
-				</div>
+			<h4>Follow us!</h4>
+			<a href="#"><image src = "img/social/ico00.png" alt = "social0"></a>
+			<a href="#"><image src = "img/social/ico01.png" alt = "social0"></a>
+			<a href="#"><image src = "img/social/ico02.png" alt = "social0"></a>
+			<a href="#"><image src = "img/social/ico03.png" alt = "social0"></a>
+			<a href="#"><image src = "img/social/ico04.png" alt = "social0"></a>
+			<a href="#"><image src = "img/social/ico05.png" alt = "social0"></a>
+			
+		</div>
+		<div class="footer">
+			<a href="index.php">Home</a>
+			<a href="#">Privacy</a>
+			<a href="page_aboutus.php">About us</a>
+			<a href="page_contactus.php">Contact us</a>
+		</div>
 				<div id = "rights">
-					<a>&copy; 2017 Games Galaxy Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.</a>
+					<a>&copy; 2019 Games Galaxy Corporation. All rights reserved.</a>
 				</div>
 
 

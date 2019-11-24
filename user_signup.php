@@ -26,7 +26,7 @@
         
     <!-- loading screen ends-->
     <div id="topbar"><!-- topbar for search and title -->
-       <a href="index.php"><font id="headerfont">ATA</font></a>
+       <a href="index.php"><font id="headerfont">Home</font></a>
     
     </div>
         <div id="signupbox">

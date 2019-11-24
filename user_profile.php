@@ -4,6 +4,7 @@ if(!isset($_SESSION['activeUser'])){
     header("location:user_login.php");
 }
 
+$username = $_SESSION['activeUser'];
 $query = "SELECT * FROM users WHERE username = '$username'";
 $result = mysqli_query($db,$query);
 $data = mysqli_fetch_array($result);
@@ -29,7 +30,7 @@ $data = mysqli_fetch_array($result);
         
     <!-- loading screen ends-->
     <div id="topbar"><!-- topbar for search and title -->
-       <a href="index.php"><font id="headerfont">ATA</font></a>
+       <a href="index.php"><font id="headerfont">Home</font></a>
     
     </div>
         <div id="signupbox">

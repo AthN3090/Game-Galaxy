@@ -258,8 +258,24 @@ header("location: index.php");
     
             header("location: index.php");
 
+}   
+
+function display_cart($db,$username){
+
+    $query = "SELECT game_id FROM cart WHERE buyer = '$username'";
+    $result = mysqli_query($db,$query);
+    while($data = mysqli_fetch_array($result)){
+        
+        echo "<script type='text/javascript'>",
+        "display_cart('$data[0]');",
+        "</script>";
+
+        
+
+
 }
-    
+
+}
 
     
 

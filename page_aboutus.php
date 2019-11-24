@@ -89,6 +89,19 @@
 							</a>
 							<ul id="hidelogout">
 							<li style="float:right;">
+							<a><form method="POST" action="user_cart.php">
+							<input name="cart" style="
+										cursor:pointer;
+										background: transparent;
+										outline:none;
+										border:none;
+										color:white;
+										padding:0px;"
+							type="submit" value="View cart"></input>
+							</form>
+						</a>
+						</li>
+							<li style="float:right;">
 							<a><form method="POST">
 							<input name="userLogout" style="
 										cursor:pointer;
@@ -125,7 +138,7 @@
 		
 			<h2>Games Galaxy Corporation</h2>
 		
-				<p>Games Galaxy is an idea born as a project for software engineering at North American University. Since all the team members
+				<p>Games Galaxy is an idea born as a project for software engineering at IIIT SURAT. Since all the team members
 				liked videogames, we decided to create a friendly website whose main purpose is not only serving as a
 				retail-seller website, but to also have a news section that will encourage users to visit Games Galaxy
 				frequently to read topics related to the videogame industry. In our journey we encountered difficulties due
@@ -143,12 +156,14 @@
 			
 				<div class = "dev">
 				
-				<a href="best_sellers.php"><img src="img/social/dev1.png"></a>
-				<h4>Marmol, Jesus</h4>
-				<p>Software Engineer</p>
-				<p>Student at North American University</p>
-				<p>jmarmol1@na.edu</p>
-				<a href="files/resume/jesus_resume.pdf" target="_blank"><input class="button_resume" type="button" value="RESUME"/></a>
+				<a href="best_sellers.php"></a><img src="img/social/dev0.JPG">
+				<h4>Aman Dev Chowdhary</h4>
+				<p>3rd year student at IIIT Surat</p>
+				<p>amandevrishi12@gmail.com</p>
+				<p>
+				UI17CO12
+				</p>
+				
 				
 				
 				</div>
@@ -156,12 +171,13 @@
 				<div class = "dev1">
 				
 				
-				<img src="img/social/dev0.png">
-				<h4>Ibrahima, Doumbia</h4>
-				<p>Software Engineer</p>
-				<p>Student at North American University</p>
-				<p>idoumbia@na.edu</p>
-				<a href="files/resume/ibrahima_resume.pdf" target="_blank"><input class="button_resume" type="button" value="RESUME"/></a>
+				<img src="img/social/dev1.png">
+				<h4>Ankit Patel</h4>
+				<p>3rd year student at IIIT Surat</p>
+				<p>ankit.patel@gmail.com</p>
+				<p>UI17CO11</p>
+				
+				
 			
 				
 				</div>
@@ -170,11 +186,12 @@
 				<div class = "dev2">
 				
 				<img src="img/social/dev2.png">
-				<h4>Leland, Barnard</h4>
-				<p>Software Engineer</p>
-				<p>Student at North American University</p>
-				<p>lbarnard@na.edu</p>
-				<a href="files/resume/barnard_resume.pdf" target="_blank"><input class="button_resume" type="button" color="#76108A" value="RESUME"/></a>
+				<h4>Tuneer Upadhyay</h4>
+				
+				<p>3rd year student at IIIT Surat</p>
+				<p>tuneer.upadhyay@gmail.com</p>
+				<p>UI17CO19</p>
+				
 				
 				</div>
 				
@@ -192,22 +209,22 @@
 				<div class = "social">
 			
 					<h4>Follow us!</h4>
-					<a href="https://www.facebook.com/Games-Galaxy-1805648999468804/"><image src = "img/social/ico00.png" alt = "social0"></a>
-					<a href="https://www.instagram.com/northamericanu/"><image src = "img/social/ico01.png" alt = "social0"></a>
-					<a href="https://www.youtube.com/watch?v=_yF08r-49m0&feature=youtu.be"><image src = "img/social/ico02.png" alt = "social0"></a>
-					<a href="https://twitter.com/NorthAmericanU"><image src = "img/social/ico03.png" alt = "social0"></a>
-					<a href="https://www.twitch.tv/"><image src = "img/social/ico04.png" alt = "social0"></a>
-					<a href="https://www.linkedin.com/"><image src = "img/social/ico05.png" alt = "social0"></a>
+					<a href="#"><image src = "img/social/ico00.png" alt = "social0"></a>
+					<a href="#"><image src = "img/social/ico01.png" alt = "social0"></a>
+					<a href="#"><image src = "img/social/ico02.png" alt = "social0"></a>
+					<a href="#"><image src = "img/social/ico03.png" alt = "social0"></a>
+					<a href="#"><image src = "img/social/ico04.png" alt = "social0"></a>
+					<a href="#"><image src = "img/social/ico05.png" alt = "social0"></a>
 					
 				</div>
 				<div class="footer">
 					<a href="index.php">Home</a>
-					<a href="privacy.php">Privacy</a>
+					<a href="#">Privacy</a>
 					<a href="page_aboutus.php">About us</a>
 					<a href="page_contactus.php">Contact us</a>
 				</div>
 				<div id = "rights">
-					<a>&copy; 2017 Games Galaxy Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.</a>
+					<a>&copy; 2019 Games Galaxy Corporation. All rights reserved.</a>
 				</div>
 
 

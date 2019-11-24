@@ -100,6 +100,19 @@
 							</a>
 							<ul id="hidelogout">
 							<li style="float:right;">
+							<a><form method="POST" action="user_cart.php">
+							<input name="cart" style="
+										cursor:pointer;
+										background: transparent;
+										outline:none;
+										border:none;
+										color:white;
+										padding:0px;"
+							type="submit" value="View cart"></input>
+							</form>
+						</a>
+						</li>
+							<li style="float:right;">
 							<a><form method="POST">
 							<input name="userLogout" style="
 										cursor:pointer;
@@ -112,6 +125,7 @@
 							</form>
 						</a>
 						</li>
+						
 							</ul>
 							
 						</li>
@@ -267,90 +281,7 @@
 			<div id = "inner_frame">
 				
 					
-					<!-- 
-				<div class="game_frame">
-					<th>
-					 <a href="page_featured_games.php#sm_odyssey">
-					  <img src = "img/games/game_adventure0.png" alt = "FEATURED_GAMES">
-					 </a>
-					</th>
-				    <p class="info_text">Thief</p>
-					<a href="page_featured_games.php#sm_odyssey" class="info_link">More info
-					</a>
-					</div>
-					
-					
-					
-					
-					<div class="game_frame">
-					<th><a href="page_featured_games.php#nioh"><img src = "img/games/game_rpg02.jpg" alt = "FEATURED_GAMES"</a></th>
-					<p class="info_text">Nioh</p>
-					<a href="page_featured_games.php#nioh" class="info_link">More info</a>
-					</div>
-					
-					<div class="game_frame">
-					<th><a href="page_featured_games.php#swb2"><img src = "img/games/game_shooter0.png" alt = "FEATURED_GAMES"</a></th>
-					<p class="info_text">Star Wars: Battlefront II</p>
-					<a href="page_featured_games.php#swb2" class="info_link">More info</a>
-					</div>
-					
-					
-					<div class="game_frame">
-					<th><a href="page_featured_games.php#shadow_of_war"><img src = "img/games/game_adventure04.png" alt = "FEATURED_GAMES"</a></th>
-					<p class="info_text">Shadow of War</p>
-					<a href="page_featured_games.php#shadow_of_war" class="info_link">More info</a>
-					</div>
 				
-			
-				
-					<div class="game_frame">
-					<th><a href="page_featured_games.php#ffxv"><img src = "img/games/game_rpg0.png" alt = "FEATURED_GAMES"</a></th>
-					<p class="info_text">Final Fantasy XV</p>
-					<a href="page_featured_games.php#ffxv" class="info_link">More info</a>
-						</div>
-						
-					<div class="game_frame">
-					<th><a href="page_featured_games.php#forza_horizon3"><img src = "img/games/game_racing01.png" alt = "FEATURED_GAMES"</a></th>
-					<p class="info_text">Forza Horizon 3</p>
-					<a href="page_featured_games.php#forza_horizon3" class="info_link">More info</a>
-						</div>
-						
-					<div class="game_frame">
-					<th><a href="page_featured_games.php#nfs_payback"><img src = "img/games/game_racing0.png" alt = "FEATURED_GAMES"</a></th>
-					<p class="info_text">Need for Speed: Payback</p>
-					<a href="page_featured_games.php#nfs_payback" class="info_link">More info</a>
-						</div>
-						
-					<div class="game_frame">
-					<th><a href="page_featured_games.php#origins"><img src = "img/games/game_adventure01.jpg" alt = "FEATURED_GAMES"</a></th>
-					<p class="info_text">Assassin's Creed: Origins</p>
-					<a href="page_featured_games.php#origins" class="info_link">More info</a>
-						</div>
-			
-					<div class="game_frame">
-					<th><a href="page_featured_games.php#TEW2"><img src = "img/games/game_other02.png" alt = "FEATURED_GAMES"</a></th>
-					<p class="info_text">The Evil Within 2</p>
-					<a href="page_featured_games.php#TEW2" class="info_link">More info</a>
-					</div>
-					
-					<div class="game_frame">
-					<th><a href="page_featured_games.php#pes2018"><img src = "img/games/game_sports0.jpg" alt = "FEATURED_GAMES"</a></th>
-					<p class="info_text">PES 2018</p>
-					<a href="page_featured_games.php#pes2018" class="info_link">More info</a>
-					</div>
-					
-					<div class="game_frame">
-					<th><a href="page_featured_games.php#gts"><img src = "img/games/game_racing03.png" alt = "FEATURED_GAMES"</a></th>
-					<p class="info_text">Gran Turismo Sport</p>
-					<a href="page_featured_games.php#gts" class="info_link">More info</a>
-					</div>
-					
-					<div class="game_frame">
-					<th><a href="page_featured_games.php#codww2"><img src = "img/games/game_shooter02.jpg" alt = "FEATURED_GAMES"</a></th>
-					<p class="info_text">Call of Duty: WWII</p>
-					<a href="page_featured_games.php#codww2" class="info_link">More info</a>
-					</div>
-					-->
 				
 			</div>
 			
@@ -373,79 +304,7 @@
 		
 			<!-- <table> Table will make them smaller when decreasing page size -->
 			<div id = "inner_frame">
-				
-				<!--	<div class="game_frame">
-					<th><a href="page_best_sellers.php#codww2"><img src = "img/games/game_shooter02.jpg" alt = "BEST_SELLERS"</a></th>
-					<p class="info_text">Call of Duty: WWII</p>
-					<a href="page_featured_games.php#codww2" class="info_link">More info</a>
-					</div>
-					
-					<div class="game_frame">
-					<th><a href="page_best_sellers.php#gtav"><img src = "img/games/game_shooter03.png" alt = "BEST_SELLERS"</a></th>
-					<p class="info_text">Grand Theft Auto V</p>
-					<a href="page_featured_games.php#gtav" class="info_link">More info</a>
-					</div>
-					
-					<div class="game_frame">
-					<th><a href="page_best_sellers.php#swb2"><img src = "img/games/game_shooter0.png" alt = "BEST_SELLERS"</a></th>
-					<p class="info_text">Star Wars: Battlefront II</p>
-					<a href="page_featured_games.php#swb2" class="info_link">More info</a>
-					</div>
-					
-					<div class="game_frame">
-					<th><a href="page_best_sellers.php#wolf2"><img src = "img/games/game_shooter01.jpg" alt = "BEST_SELLERS"</a></th>
-					<p class="info_text">Wolfensten II</p>
-					<a href="page_featured_games.php#wolf2" class="info_link">More info</a>
-					</div>
-				
-					<div class="game_frame">
-					<th><a href="page_best_sellers.php#pc2"><img src = "img/games/game_racing02.jpg" alt = "BEST_SELLERS"</a></th>
-					<p class="info_text">Project Cars 2</p>
-					<a href="page_featured_games.php#pc2" class="info_link">More info</a>
-					</div>
-					
-					<div class="game_frame">
-					<th><a href="page_best_sellers.php#pes2018"><img src = "img/games/game_sports0.jpg" alt = "BEST_SELLERS"</a></th>
-					<p class="info_text">PES 2018</p>
-					<a href="page_featured_games.php#pes2018" class="info_link">More info</a>
-					</div>
-					
-					<div class="game_frame">
-					<th><a href="page_best_sellers.php#TEW2"><img src = "img/games/game_other02.png" alt = "BEST_SELLERS"</a></th>
-					<p class="info_text">The Evil Within 2</p>
-					<a href="page_featured_games.php#TEW2" class="info_link">More info</a>
-					</div>
-					
-					<div class="game_frame">
-					<th><a href="page_best_sellers.php#shadow_of_war"><img src = "img/games/game_adventure04.png" alt = "BEST_SELLERS"</a></th>
-					<p class="info_text">Shadow of War</p>
-					<a href="page_featured_games.php#shadow_of_war" class="info_link">More info</a>
-					</div>
-				
-					<div class="game_frame">
-					<th><a href="page_best_sellers.php#origins"><img src = "img/games/game_adventure01.jpg" alt = "BEST_SELLERS"</a></th>
-					<p class="info_text">Assassin's Creed: Origins</p>
-					<a href="page_featured_games.php#origins" class="info_link">More info</a>
-					</div>
-					
-					<div class="game_frame">
-					<th><a href="page_best_sellers.php#nfs_payback"><img src = "img/games/game_racing0.png" alt = "BEST_SELLERS"</a></th>
-					<p class="info_text">Need for Speed: Payback</p>
-					<a href="page_featured_games.php#nfs_payback" class="info_link">More info</a>
-					</div>
-					
-					<div class="game_frame">
-					<th><a href="page_best_sellers.php#gts"><img src = "img/games/game_racing03.png" alt = "BEST_SELLERS"</a></th>
-					<p class="info_text">Gran Turismo Sport</p>
-					<a href="page_featured_games.php#gts" class="info_link">More info</a>
-					</div>
-					
-					<div class="game_frame">
-					<th><a href="page_best_sellers.php#nier"><img src = "img/games/game_adventure02.png" alt = "BEST_SELLERS"</a></th>
-					<p class="info_text">Nier: Automata</p>
-					<a href="page_featured_games.php#nier" class="info_link">More info</a>
-					</div>
-					-->
+			
 				
 			</div>
 			<!-- </table> -->
@@ -462,61 +321,7 @@
 
 		<div id = "inner_frame">
 			
-			<!--	<div class="game_frame">
-				<th><a href="page_on_sale.php#NOA"><img src = "img/games/game_other01.png" alt = "ON_SALE"</a></th>
-				<p class="info_text">Nights of Azure</p>
-				<a href="page_featured_games.php#NOA" class="info_link">More info</a>
-				</div>
-					
-				<div class="game_frame">
-				<th><a href="page_on_sale.php#blue_reflection"><img src = "img/games/game_rpg01.png" alt = "ON_SALE"</a></th>
-				<p class="info_text">Blue Reflection</p>
-					<a href="page_featured_games.php#blue_reflection" class="info_link">More info</a>
 					</div>
-				
-				<div class="game_frame">
-				<th><a href="page_on_sale.php#fatal_frame_v"><img src = "img/games/game_other0.png" alt = "ON_SALE"</a></th>
-				<p class="info_text">Project Zero</p>
-					<a href="page_featured_games.php#fatal_frame_v" class="info_link">More info</a>
-					</div>
-				
-				<div class="game_frame">
-				<th><a href="page_on_sale.php#nfl17"><img src = "img/games/game_sports01.jpg" alt = "ON_SALE"</a></th>
-				<p class="info_text">NFL Madden 17</p>
-					<a href="page_featured_games.php#nfl17" class="info_link">More info</a>
-					</div>
-			</tr>
-			<tr>
-				<div class="game_frame">
-				<th><a href="page_on_sale.php#pdx"><img src = "img/games/game_other02.jpg" alt = "ON_SALE"</a></th>
-				<p class="info_text">Project Diva X</p>
-					<a href="page_featured_games.php#pdx" class="info_link">More info</a>
-					</div>
-				
-				<div class="game_frame">
-				<th><a href="page_on_sale.php#ffxv"><img src = "img/games/game_rpg0.png" alt = "ON_SALE"</a></th>
-				<p class="info_text">Final Fantasy XV</p>
-					<a href="page_featured_games.php#ffxv" class="info_link">More info</a>
-					</div>
-				
-				<div class="game_frame">
-				<th><a href="page_on_sale.php#rbi2017"><img src = "img/games/game_sports03.png" alt = "ON_SALE"</a></th>
-				<p class="info_text">RBI Baseball 2017</p>
-					<a href="page_featured_games.php#rbi2017" class="info_link">More info</a>
-					</div>
-				
-				<div class="game_frame">
-				<th><a href="page_on_sale.php#nhl18"><img src = "img/games/game_sports02.jpg" alt = "ON_SALE"</a></th>
-				<p class="info_text">NHL 18</p>
-					<a href="page_featured_games.php#nhl18" class="info_link">More info</a>
-					</div>
-				<div class="game_frame">
-					<th><a href="page_on_sale.php#gtav"><img src = "img/games/game_shooter03.png" alt = "BEST_SELLERS"</a></th>
-					<p class="info_text">Grand Theft Auto V</p>
-					<a href="page_on_sale.php#gtav" class="info_link">More info</a>
-					</div>
-			-->
-		</div>
 		
 		</div>
 	
@@ -525,25 +330,25 @@
 		<!-- Footer block starts here-->
 		<footer>
 		
-				<div class = "social">
+		<div class = "social">
 			
-					<h4>Follow us!</h4>
-					<a href="https://www.facebook.com/Games-Galaxy-1805648999468804/"><image src = "img/social/ico00.png" alt = "social0"></a>
-					<a href="https://www.instagram.com/northamericanu/"><image src = "img/social/ico01.png" alt = "social0"></a>
-					<a href="https://www.youtube.com/watch?v=_yF08r-49m0&feature=youtu.be"><image src = "img/social/ico02.png" alt = "social0"></a>
-					<a href="https://twitter.com/NorthAmericanU"><image src = "img/social/ico03.png" alt = "social0"></a>
-					<a href="https://www.twitch.tv/"><image src = "img/social/ico04.png" alt = "social0"></a>
-					<a href="https://www.linkedin.com/"><image src = "img/social/ico05.png" alt = "social0"></a>
-					
-				</div>
-				<div class="footer">
-					<a href="index.php">Home</a>
-					<a href="privacy.php">Privacy</a>
-					<a href="page_aboutus.php">About us</a>
-					<a href="page_contactus.php">Contact us</a>
-				</div>
+			<h4>Follow us!</h4>
+			<a href="#"><image src = "img/social/ico00.png" alt = "social0"></a>
+			<a href="#"><image src = "img/social/ico01.png" alt = "social0"></a>
+			<a href="#"><image src = "img/social/ico02.png" alt = "social0"></a>
+			<a href="#"><image src = "img/social/ico03.png" alt = "social0"></a>
+			<a href="#"><image src = "img/social/ico04.png" alt = "social0"></a>
+			<a href="#"><image src = "img/social/ico05.png" alt = "social0"></a>
+			
+		</div>
+		<div class="footer">
+			<a href="index.php">Home</a>
+			<a href="#">Privacy</a>
+			<a href="page_aboutus.php">About us</a>
+			<a href="page_contactus.php">Contact us</a>
+		</div>
 				<div id = "rights">
-					<a>&copy; 2017 Games Galaxy Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.</a>
+					<a>&copy; 2019 Games Galaxy Corporation. All rights reserved.</a>
 				</div>
 
 
