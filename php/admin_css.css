@@ -7,19 +7,20 @@ body{
     background-color:rgba(0,0,0,0.5);
     position: relative;
     margin: auto;
-    top:0px;
+    top:200px;
     left:0px;
     right:0px;
     bottom:0px;
-    height:400px;
+    height:300px;
     width:400px;
     border-radius: 10px;
     text-align: center;
+    padding-top:50px ;
 
 }
 #form{
+    position: relative;
     color: seashell;
-    margin:20% auto;
     padding:10px;
     width:70% ;
     display: flex;
