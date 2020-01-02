@@ -344,8 +344,13 @@ function add_to_cart(id){
       http.onreadystatechange = function(){
          if(http.readyState == 4 && http.status == 200){           
 
-            if(this.responseText!=""){
-               alert(this.responseText);
+            
+               if(this.responseText=="FALSE"){
+               window.location.replace("./user_login.php");
+            }else if(this.responseText=="CANT"){
+               alert("Item already in your cart");
+            }else if(this.responseText=="DONE"){
+               alert("Item has been added to your cart.");
             }
 
          }
@@ -355,6 +360,8 @@ function add_to_cart(id){
       http.setRequestHeader("Content-type","application/x-www-form-urlencoded");
       http.send("gameid="+game_id);
    }
+
+
    function display_cart(id){
       var game_id = id;
       var http = new XMLHttpRequest();
