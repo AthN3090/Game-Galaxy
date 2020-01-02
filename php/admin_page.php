@@ -29,7 +29,16 @@ if(!isset($_SESSION['activeAdmin'])){
         padding: 5px;
 
     }
+
     #admin_menu1{
+       
+        margin-bottom: 50px;
+    }
+    #admin_menu2{
+        margin-bottom: 50px;
+    }
+    @media screen and (min-width:1300px){
+       #admin_menu1{
         height:100% ;
         width:50%;
         float: left;
@@ -40,6 +49,7 @@ if(!isset($_SESSION['activeAdmin'])){
         width:50%;
        
         float:right;
+    }
     }
     #data_manip{
         padding: 20px;
@@ -114,13 +124,14 @@ if(!isset($_SESSION['activeAdmin'])){
         background-color:green;
     }
     #logout{
+        position: relative;
         background-color:#cc0000;
         border:none;
         border-radius:50px;
         width:100px;
         height:50px;
         position:relative;
-        top:-50px;
+        
         color:white;
         outline:none;
     }
@@ -179,7 +190,7 @@ if(!isset($_SESSION['activeAdmin'])){
                     <option>On Sale</option>
                 </select>
                 <br>
-                <input type="submit" value="submit" id="submit" name="newgame">
+               <center> <input type="submit" value="submit" id="submit" name="newgame"></center>
                 
             </form>
         </div>

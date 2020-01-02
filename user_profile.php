@@ -34,7 +34,7 @@ $data = mysqli_fetch_array($result);
     
     </div>
         <div id="signupbox">
-            <div style="text-align: center;font-family:pacifico;font-size:40px;color:white;width: 100%;position: absolute;top: 20px;">Your profile details</div>
+            <div style="margin-bottom:20px;text-align: center;font-family:pacifico;font-size:40px;color:white;width: 100%;position: relative;top: 20px;">Your profile details</div>
             <form method="post" action="index.php" >
             <div class="userdetails">
             <input style="text-transform: capitalize;" class="firstinput" type="text" value="<?php echo $data['name']; ?>" name="name" placeholder="Name" autocomplete="off" required>
@@ -53,7 +53,7 @@ $data = mysqli_fetch_array($result);
             <input class="firstinput" type="password" name="pass" value="" placeholder="New Password" autocomplete="off" >
             <input class="firstinput" type="password" name="cpass" value=""  placeholder="Confirm Password" autocomplete="off" >
             </div>
-            <input type="submit" style="width:150px;" id="firstsubmit" name="saveUser" value="Save">
+            <center><input type="submit" style="width:150px;" id="firstsubmit" name="saveUser" value="Save"></center>
 
             </form>
         

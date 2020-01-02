@@ -65,7 +65,8 @@ body{margin:0;
     transition: 0.2s !important;
 }
 #loginBox{
-    
+    position: relative;
+
     display: block;
     margin: auto;
     height: 500px;
@@ -219,9 +220,14 @@ body{margin:0;
     margin: auto;
 }
 #navbar{
-    height: 200px;
+    height:auto;
+    margin-bottom: 50px;
 }
-
+@media screen and (max-width:500px){
+    #navbar{
+        margin-bottom: 10px;
+    }
+}
 
 @keyframes rotate {
   0% {
@@ -297,16 +303,24 @@ background-color: aliceblue;
 }
 #signupbox{
     font-family:nunito;
-    position: absolute;
+    position: relative;
     border-radius:20px;
     background-color: #2f3030;
-    left:450;
-    top:90;
-    height:85%;
-    width:40%;
+    margin: auto;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
     box-shadow:0px 0px 30px #3bcc72;
+    height: auto;
+    width: 40%;
+    min-width:500px;
+
+    margin-bottom: 50px;
 }
-#input-wrapper{position: absolute;
+
+
+#input-wrapprr{position: absolute;
     top:30px;
     right:15px;
 height:80%;
@@ -321,7 +335,7 @@ height:80%;
     border-color:transparent;   
     border-radius: 20px;
     padding:15px 20px;
-    width:250;
+    width:90%;
 }
 .firstinput:focus{
     border: solid;
@@ -332,14 +346,14 @@ height:80%;
     background-color:#3bcc72; 
     color: aliceblue;
     font-size:20px;
-    position: absolute;
+    position: relative;
     bottom:10px;
-    left:230px;
     font-family:nunito;
     border:none;
     border-radius:20px;
    padding:10px 40px;
     outline: none;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 #firstsubmit:hover{
@@ -348,7 +362,7 @@ height:80%;
 }
 
 .userdetails {text-align: center;
-    position: relative;
+    position: details;
     top:125px;
     width: 100%;
     display: inline-block;

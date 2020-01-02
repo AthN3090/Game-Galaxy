@@ -30,16 +30,16 @@
     
     </div>
         <div id="signupbox">
-            <div style="text-align: center;font-family:pacifico;font-size:40px;color:white;width: 100%;position: absolute;top: 20px;">Sign up</div>
+            <div style="text-align: center;font-family:pacifico;font-size:40px;color:white;width: 100%;position: relative;top: 20px;margin-top:20px;margin-bottom:20px;">Sign up</div>
             <form method="post">
             <div class="userdetails">
             <input style="text-transform: capitalize;" class="firstinput" type="text" name="name" placeholder="Name" autocomplete="off" required>
             <input class="firstinput" type="text" name="username" placeholder="User Name" autocomplete="off" required>
             </div>
             <div class="userdetails"> 
-            <input class="firstinput" style="width:;" type="text" name="mobnumber" placeholder="Mobile number" autocomplete="off" required>
+            <input class="firstinput"  type="text" name="mobnumber" placeholder="Mobile number" autocomplete="off" required>
             
-            <input class="firstinput" style="width:;" type="text" name="email" placeholder="Email" autocomplete="off" required>
+            <input class="firstinput"  type="text" name="email" placeholder="Email" autocomplete="off" required>
             </div>
             <div class="userdetails">
             
@@ -49,7 +49,7 @@
             <input class="firstinput" type="password" name="pass" placeholder="Your Password" autocomplete="off" required>
             <input class="firstinput" type="password" name="cpass" placeholder="Confirm Password" autocomplete="off" required>
             </div>
-            <input type="submit" id="firstsubmit" name="userSignup" value="Confirm">
+           <center> <input type="submit" id="firstsubmit" name="userSignup" value="Confirm"> </center>
             </form>
         
         
