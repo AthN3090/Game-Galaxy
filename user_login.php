@@ -71,7 +71,7 @@ if(isset($_SESSION['activeUser'])){
         <!-- bootsrtap cointainer ends -->
 
     
-     <script src="myScript.js"></script>
+     
         
         </body>
         

@@ -1,11 +1,7 @@
 <?php
 require 'server.php';
-if(!isset($_SESSION['activeUser'])){
-    echo "FALSE";
- }else{
-     
- 
-$user = $_SESSION['activeUser'];
+if(isset($_SESSION['activeUser'])){
+    $user = $_SESSION['activeUser'];
 $game_id = $_POST['gameid'];
 $query = "SELECT * FROM cart WHERE game_id='$game_id' AND buyer = '$user';";
 $result = mysqli_query($db,$query);
@@ -16,6 +12,10 @@ echo "DONE";
 }else{
     echo "CANT";
 }
+
+ }else{
+    echo "FALSE";
+ 
 
  }
 

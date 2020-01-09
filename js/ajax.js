@@ -124,7 +124,7 @@ function display_games(target){
          var video = document.createElement('div');
          video.setAttribute("id","video");
          var iframe = document.createElement('iframe');
-         iframe.setAttribute("src",gameObj.video);
+         iframe.setAttribute("src",gameObj.video+"&origin=https://gamegalaxy333.000webhostapp.com/");
          iframe.setAttribute("frameborder","0");
          iframe.setAttribute("allowfullscreen","");
          iframe.setAttribute("allow","autoplay");
@@ -187,7 +187,7 @@ function display_games(target){
          var button_right = document.createElement('div');
          button_right.setAttribute("class","button_right");
          var button2 = document.createElement('button');
-         button2.setAttribute("onclick","location.href = '../SE_PROJECT/user_cart.php'");
+         button2.setAttribute("onclick","location.href = '../user_cart.php'");
          button2.setAttribute("id",gameObj.id);
          button2.setAttribute("class","button");
          button2.innerHTML = "View cart";
@@ -229,7 +229,7 @@ function display_tagged_games(target){
          var video = document.createElement('div');
          video.setAttribute("id","video");
          var iframe = document.createElement('iframe');
-         iframe.setAttribute("src",gameObj.video);
+         iframe.setAttribute("src",gameObj.video+"&origin=https://gamegalaxy333.000webhostapp.com");
          iframe.setAttribute("frameborder","0");
          iframe.setAttribute("allowfullscreen","");
          iframe.setAttribute("allow","autoplay");
@@ -339,6 +339,7 @@ http.send("user=1");
 
 
 function add_to_cart(id){
+   console.log(id);
       var game_id = id;
       var http = new XMLHttpRequest();
       http.onreadystatechange = function(){

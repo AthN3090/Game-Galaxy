@@ -9,10 +9,14 @@
 <title> 
 	<?php 
 	
-	if(isset($_SESSION['activeUser']))
+	if(!isset($_SESSION['activeUser'])){
+			header("location:user_login.php");
+	}
+			else{
 			echo $_SESSION['activeUser']."'s cart";
-			else
-				header("location:user_login.php");
+			}
+	
+	
 		
 ?>
 </title>
@@ -58,8 +62,8 @@
 	</script>
 <!-- //Remove-Item-JavaScript -->
 <?php
-display_cart($db,$_SESSION['activeUser']);
 
+display_cart($db,$_SESSION['activeUser']);
 ?>
 <script type="text/javascript">
 window.addEventListener('load',function(){

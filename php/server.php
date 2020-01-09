@@ -192,8 +192,8 @@ if(mysqli_num_rows($result)==1){
     }else{
         $msg="Incorrect Password or Username !";
         echo "<script type='text/javascript'>alert('$msg');</script>";
+        
     }
-    
 }
 if(isset($_POST['userLogout'])){
     unset($_SESSION['activeUser']);
