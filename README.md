@@ -1,6 +1,9 @@
 # Game Galaxy
 
-Game galaxy is a game retail website which facilitates it's user with the ability to buy games from different platform from a single website.
+Game galaxy is a game retail website which allows the users to buy games from the different platform
+from a single website. It uses PHP for the backend, frontend is built with JavaScript. 
+
+![mockup](/Screenshots/mockup.jpg)
 
 ## Getting Started
 
